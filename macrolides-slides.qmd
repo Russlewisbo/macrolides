@@ -45,11 +45,11 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 # Chemistry & Mechanism {background-color="#b20e10"}
 
-## The Macrolide Family
+## The Macrolide family
 
 ::::: columns
 ::: {.column width="50%"}
-![](macrolides-images/erythromycin_base.png){fig-align="center"}
+![erythromycin base](macrolides-images/erythromycin_base.png){fig-align="center"}
 :::
 
 ::: {.column width="50%"}
@@ -64,19 +64,13 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 ## Mechanism of action
 
-![](macrolides-images/macrolide_MOA.png){fig-align="center" width="800"}
+![](macrolides-images/macrolide_MOA.png){fig-align="center" width="700"}
 
 ::: aside
-[@Mao1968]
-:::
-
-::: aside
-A2058 is the keystone. It's the same nucleotide modified by erm methylases and mutated in azithromycin-resistant Mycoplasma and gonorrhea. Knowing where the drug sits on the ribosome is what lets you predict every resistance mechanism we're about to discuss.
+A2058 is the keystone. It's the same nucleotide modified by erm methylases and mutated in azithromycin-resistant Mycoplasma and gonorrhea. Knowing where the drug sits on the ribosome is what lets you predict every resistance mechanism we're about to discuss [@Mao1968].
 :::
 
 ## Bacteriostatic vs. bactericidal
-
-<br>
 
 - All four agents (erythromycin, clarithromycin, azithromycin, clindamycin) are protein-synthesis inhibitors → **classically bacteriostatic**
 - Become bactericidal under specific conditions:
@@ -84,14 +78,15 @@ A2058 is the keystone. It's the same nucleotide modified by erm methylases and m
   - Organisms in active growth phase
   - Low inoculum
 - Clinical relevance: avoid as monotherapy for endocarditis, neutropenic infections, meningitis (with rare specific exceptions)
+- However, perception of less effective "static" activity may actually be a consequence of macrolide PK- (large Vd, low bloodstream concentrations)
 
-::: notes
+::: aside
 The static/cidal distinction is over-emphasized in textbooks, but it does matter for endovascular infections and immunocompromised hosts. Macrolides are not endocarditis drugs.
 :::
 
 # Resistance Mechanisms {background-color="#b20e10"}
 
-## Three Resistance Mechanisms — Overview
+## Three resistance mechanisms — Overview
 
 <br>
 
@@ -102,34 +97,18 @@ The static/cidal distinction is over-emphasized in textbooks, but it does matter
 | **Enzymatic inactivation** (esterases, phosphotransferases) | Drug destroyed | Variable; uncommon clinically |
 
 ::: aside
-[@Mao1968; @Ackermann2003]
+Three mechanisms — but the one that haunts the consult service is target-site methylation, because of MLS~B~ cross-resistance. The efflux phenotype is more common in pneumococci and spares clindamycin. Enzymatic destruction is rarely clinically important except in some Enterobacterales [@Mao1968; @Ackermann2003].
 :::
 
-::: notes
-Three mechanisms — but the one that haunts the consult service is target-site methylation, because of MLS~B~ cross-resistance. The efflux phenotype is more common in pneumococci and spares clindamycin. Enzymatic destruction is rarely clinically important except in some Enterobacterales.
-:::
+## Target methylation — the *erm* Genes![](images/clipboard-3998094430.png){width="700"}
 
-## Target Methylation — the *erm* Genes
-
-<br>
-
-- *erm* (erythromycin ribosome methylase) genes encode methyltransferases that **mono- or di-methylate adenine A2058** of 23S rRNA
-- Methylation blocks binding of macrolides, lincosamides, *and* streptogramin B → **MLS~B~ phenotype**
-- Common variants:
-  - **ermB** — broad host range; predominant in pneumococci, GAS, enterococci
-  - **ermA, ermC** — staphylococci
-  - **ermF** — Bacteroides
-- Carried on plasmids and transposons; mobile
+<br> <br>
 
 ::: aside
-[@Ackermann2003]
+*erm* is the single most important resistance determinant for this drug class. The gene is mobile, the modification is one chemical step, and it knocks out every drug that touches A2058 — that's why clindamycin loses too even though it's not a macrolide [@Ackermann2003].
 :::
 
-::: notes
-*erm* is the single most important resistance determinant for this drug class. The gene is mobile, the modification is one chemical step, and it knocks out every drug that touches A2058 — that's why clindamycin loses too even though it's not a macrolide.
-:::
-
-## Constitutive vs. Inducible MLS~B~
+## Constitutive vs. inducible MLS~B~
 
 <br>
 
@@ -145,22 +124,25 @@ Three mechanisms — but the one that haunts the consult service is target-site 
 This is the classic teaching pearl. AST will say "clindamycin susceptible" but the patient relapses, and you reculture and find a constitutively resistant organism. The mechanism is real — Siberry described it in MRSA, but it applies equally to GAS.
 :::
 
-## The D-Test
+## The D-test
 
-<br>
+::::: columns
+::: {.column width="50%"}
 
+![](macrolides-images/Dtest.png)
+:::
+
+::: {.column width="50%"}
 - Disk-diffusion screen for inducible clindamycin resistance
 - Erythromycin disk placed adjacent to clindamycin disk on the plate
 - If erythromycin **induces** *erm* expression, the zone of clindamycin inhibition gets **flattened on the side facing the erythromycin disk** — forming a **"D" shape**
 - D-test **positive** → report clindamycin as **resistant** despite the susceptible-looking MIC
 - Routine in clinical micro labs for staphylococci and group A strep
+:::
+:::::
 
 ::: aside
-[@Siberry2003; @LaPlante2008]
-:::
-
-::: notes
-Every micro lab in Italy and the US does this routinely. If the report says "D-test positive" or "inducible clindamycin resistance" — clindamycin is OFF the table for that isolate, even though the MIC reading was in the susceptible range.
+Every micro lab in Italy and the US does this routinely. If the report says "D-test positive" or "inducible clindamycin resistance" — clindamycin is OFF the table for that isolate, even though the MIC reading was in the susceptible range [@Siberry2003; @LaPlante2008].
 :::
 
 ## Efflux — *mef* and *msr*
@@ -172,7 +154,7 @@ Every micro lab in Italy and the US does this routinely. If the report says "D-t
 - **M phenotype:** erythromycin/azithromycin-resistant but **clindamycin- and 16-member macrolide-susceptible**
 - Usually lower-level resistance than MLS~B~ — high inocula can overwhelm the pump
 
-::: notes
+::: aside
 The M phenotype is the "clindamycin-sparing" pattern. If a pneumococcal pharyngitis or skin isolate comes back erythromycin-R / clindamycin-S, that's most likely efflux — and clindamycin will work without need for a D-test in pneumococci (the D-test is for staphylococci and GAS).
 :::
 
@@ -202,7 +184,7 @@ Mycoplasma macrolide resistance is now \>90% in some Asian regions and approachi
 <br>
 
 | Preparation | Notes | Typical adult dose |
-|----------------------|------------------|---------------------------------|
+|----------------------|------------------|--------------------------------|
 | Base | Acid-labile; enteric-coated | 250–500 mg PO q6–12h |
 | Stearate | Acid-stable salt | Similar |
 | Ethylsuccinate | Suspension/pediatric | 400–800 mg PO q6–12h |
@@ -349,7 +331,7 @@ The classic dichotomy of time-vs-concentration-dependent killing breaks down for
 <br>
 
 | Property           | Erythromycin | Clarithromycin  | Azithromycin                |
-|----------------|----------------|----------------|------------------------|
+|-----------------|-----------------|-----------------|---------------------|
 | Half-life          | 1.5–2 h      | 3–7 h           | 40–68 h                     |
 | Active metabolite  | No           | 14-OH (active)  | No                          |
 | CYP3A4 inhibitor   | Strong       | Strong          | Minimal                     |
