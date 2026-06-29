@@ -1,6 +1,6 @@
 ---
 title: "Macrolides, Ketolides, and Clindamycin"
-subtitle: "An Advanced Update for ID Fellows"
+
 author: "Russell E. Lewis, Pharm.D."
 date: today
 format:
@@ -11,9 +11,26 @@ format:
     logo: macrolides-images/DMM_newlogo.png
     width: 1280
     height: 720
+    lightbox: true
 bibliography: macrolides-references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
+
+
+## Macrolides, Ketolides <br> and Clindamycin {.light-text background-color="#b20e10" background-video="macrolides-images/molecules.mp4" background-video-loop="true" background-video-muted="true" background-opacity="0.4"}
+
+<center>
+
+**Russell E. Lewis, Pharm.D** <br> Associate Professor of Infectious Diseases (MEDS-10/B) <br>
+
+<br> <br>
+
+![](macrolides-images/DMM_newlogo.png){fig-align="center" width="350"}
+
+<br> {{< fa solid envelope size=1x >}} russelledward.lewis\@unipd.it <br> {{< fa brands github size=1x >}} [https://github.com/Russlewisbo](https://github.com/Russlewisbo/ESCMID_2022_talk) <br> Slides and course materials: [www.idpadova.com](https://padovaid.com/)
+
+<br>
+
 
 ## Outline
 <br>
@@ -31,7 +48,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 This is a 1.5-hour lecture. We'll keep moving. Stop me at any point. The macrolides are deceptively simple to prescribe but mechanistically rich — I want you to leave with a working mental model of *why* azithromycin behaves so differently from erythromycin, *why* the D-test exists, and *why* we still add clindamycin to invasive group A strep infections.
 :::
 
-# Chemistry & Mechanism
+# Chemistry & Mechanism {background-color="#b20e10"}
 
 ## The Macrolide Family
 <br>
@@ -77,7 +94,7 @@ A2058 is the keystone. It's the same nucleotide modified by erm methylases and m
 The static/cidal distinction is over-emphasized in textbooks, but it does matter for endovascular infections and immunocompromised hosts. Macrolides are not endocarditis drugs.
 :::
 
-# Resistance Mechanisms
+# Resistance Mechanisms {background-color="#b20e10"}
 
 ## Three Resistance Mechanisms — Overview
 <br>
@@ -177,7 +194,7 @@ The M phenotype is the "clindamycin-sparing" pattern. If a pneumococcal pharyngi
 Mycoplasma macrolide resistance is now >90% in some Asian regions and approaching 30% in parts of Italy — relevant for empiric atypical coverage. H. pylori clarithromycin resistance is the reason quadruple therapy is now first-line in many regions instead of standard triple.
 :::
 
-# Pharmacology
+# Pharmacology {background-color="#b20e10"}
 
 ## Erythromycin — Preparations
 <br>
@@ -335,7 +352,7 @@ The classic dichotomy of time-vs-concentration-dependent killing breaks down for
 If you remember nothing else from the PK section, remember this table. It explains why azithromycin replaced erythromycin in almost every outpatient indication.
 :::
 
-# Cardiac Safety
+# Cardiac Safety {background-color="#b20e10"}
 
 ## QT Prolongation — Mechanism
 <br>
@@ -398,7 +415,7 @@ The "macrolide allergy" label gets attached very loosely in records. Most patien
 Practical: I rarely use erythromycin IV in ICU patients without checking baseline QTc and electrolytes. Azithromycin is safer, but not exempt.
 :::
 
-# Spectrum & Clinical Use
+# Spectrum & Clinical Use {background-color="#b20e10"}
 
 ## Spectrum — Macrolides at a Glance
 <br>
@@ -479,7 +496,7 @@ The geographic skew matters. Italian and Southern European pneumococcal resistan
 This is one of the most important geographic distinctions in antimicrobial therapy. The European/Italian epidemiology favors high-level MLS~B~ resistance — when you read US guidelines that recommend monotherapy macrolide for outpatient pneumonia, mentally adjust for our resistance landscape.
 :::
 
-# Clinical Uses — Respiratory
+# Clinical Uses — Respiratory {background-color="#b20e10"}
 
 ## Community-Acquired Pneumonia
 <br>
@@ -561,7 +578,7 @@ Macrolide monotherapy is the cardinal sin in MAC — resistance emerges in weeks
 This is one of the most interesting stories in antimicrobial pharmacology — a drug that works not by killing bacteria but by modulating innate immunity. Quorum sensing inhibition in Pseudomonas, decreased neutrophil chemotaxis, reduced pro-inflammatory cytokine release. Mechanism still debated.
 :::
 
-# Clinical Uses — Non-Respiratory
+# Clinical Uses — Non-Respiratory {background-color="#b20e10"}
 
 ## *Helicobacter pylori*
 <br>
@@ -671,7 +688,7 @@ The syphilis story is striking — within a few years of azithromycin being prom
 Krause 2000 was the landmark NEJM trial that established atovaquone + azithromycin as equivalent to clindamycin + quinine with much better tolerance. Severe and immunocompromised cases still get the older regimen.
 :::
 
-# Macrolide Immunomodulation
+# Macrolide Immunomodulation {background-color="#b20e10"}
 
 ## Macrolides as Immunomodulators
 <br>
@@ -691,7 +708,7 @@ Krause 2000 was the landmark NEJM trial that established atovaquone + azithromyc
 The mechanism story is messy — multiple proposed pathways, none singularly proven. But the clinical effect in DPB, CF, and COPD is real and reproducible. It's the leading edge of the "antibiotics as immunomodulators" field.
 :::
 
-# Ketolides
+# Ketolides {background-color="#b20e10"}
 
 ## Ketolides — Designed to Overcome MLS~B~
 <br>
@@ -764,7 +781,7 @@ Lefamulin isn't a macrolide, but mention it because it occupies the niche solith
 Nafithromycin is one to watch — particularly for the Indian market, where it may be approved before any Western regulator considers it. The class is unlikely to return to wider use without a clearly safer molecule.
 :::
 
-# Clindamycin
+# Clindamycin {background-color="#b20e10"}
 
 ## Clindamycin — Origins
 <br>
@@ -841,7 +858,7 @@ Bacteroides resistance is the reason clindamycin is no longer the go-to for intr
 This is the single most important point about clindamycin for inpatient prescribing. The CDI risk is real, durable, and now confounds risk-benefit for many traditional indications.
 :::
 
-# Clindamycin — Clinical Uses
+# Clindamycin — Clinical Uses {background-color="#b20e10"}
 
 ## Anaerobic Infections
 <br>
@@ -1011,7 +1028,7 @@ The apicoplast story is one of the more elegant in antiparasitic pharmacology �
 [@Krause2021]
 :::
 
-# Practical Pearls
+# Practical Pearls {background-color="#b20e10"}
 
 ## What I Want You to Remember — Macrolides
 <br>
