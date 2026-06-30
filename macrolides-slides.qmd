@@ -8,7 +8,6 @@ format:
     theme: custom.scss
     slide-number: true
     transition: fade
-    logo: macrolides-images/DMM_newlogo.png
     width: 1280
     height: 720
     lightbox: true
@@ -77,8 +76,8 @@ A2058 is the keystone. It's the same nucleotide modified by erm methylases and m
   - High drug concentration relative to MIC
   - Organisms in active growth phase
   - Low inoculum
-- Clinical relevance: avoid as monotherapy for endocarditis, neutropenic infections, meningitis (with rare specific exceptions)
-- However, perception of less effective "static" activity may actually be a consequence of macrolide PK- (large Vd, low bloodstream concentrations)
+- **Clinical relevance:** avoid as monotherapy for endocarditis, neutropenic infections, meningitis (with rare specific exceptions)
+  - However, perception of less effective "static" activity may actually be a consequence of macrolide PK- (large Vd, low bloodstream concentrations)
 
 ::: aside
 The static/cidal distinction is over-emphasized in textbooks, but it does matter for endovascular infections and immunocompromised hosts. Macrolides are not endocarditis drugs.
@@ -88,13 +87,13 @@ The static/cidal distinction is over-emphasized in textbooks, but it does matter
 
 ## Three resistance mechanisms — Overview
 
-<br>
-
 | Mechanism | Effect | Cross-resistance |
-|---------------------|------------------|---------------------------------|
+|------------------------|------------------------|------------------------|
 | **Target site modification** (Erm methylation, ribosomal mutation) | 23S A2058 methylated/mutated | Full MLS~B~ (macrolides + lincosamides + streptogramin B) |
 | **Efflux** (Mef, Msr) | Drug pumped out of cell | Macrolides only (M phenotype) — clindamycin spared |
 | **Enzymatic inactivation** (esterases, phosphotransferases) | Drug destroyed | Variable; uncommon clinically |
+
+<br>
 
 ::: aside
 Three mechanisms — but the one that haunts the consult service is target-site methylation, because of MLS~B~ cross-resistance. The efflux phenotype is more common in pneumococci and spares clindamycin. Enzymatic destruction is rarely clinically important except in some Enterobacterales [@Mao1968; @Ackermann2003].
@@ -117,22 +116,17 @@ Three mechanisms — but the one that haunts the consult service is target-site 
 - **Risk:** if you treat an iMLS~B~ isolate with clindamycin, *erm* gets induced → **emergent resistance and clinical failure**
 
 ::: aside
-[@Siberry2003]
-:::
-
-::: notes
-This is the classic teaching pearl. AST will say "clindamycin susceptible" but the patient relapses, and you reculture and find a constitutively resistant organism. The mechanism is real — Siberry described it in MRSA, but it applies equally to GAS.
+This is the classic teaching pearl. AST will say "clindamycin susceptible" but the patient relapses, and you reculture and find a constitutively resistant organism. The mechanism is real — Siberry described it in MRSA, but it applies equally to GAS [@Siberry2003].
 :::
 
 ## The D-test
 
 ::::: columns
-::: {.column width="50%"}
-
-![](macrolides-images/Dtest.png)
+::: {.column width="35%"}
+![](macrolides-images/Dtest.png){width="500"}
 :::
 
-::: {.column width="50%"}
+::: {.column width="65%"}
 - Disk-diffusion screen for inducible clindamycin resistance
 - Erythromycin disk placed adjacent to clindamycin disk on the plate
 - If erythromycin **induces** *erm* expression, the zone of clindamycin inhibition gets **flattened on the side facing the erythromycin disk** — forming a **"D" shape**
@@ -142,7 +136,7 @@ This is the classic teaching pearl. AST will say "clindamycin susceptible" but t
 :::::
 
 ::: aside
-Every micro lab in Italy and the US does this routinely. If the report says "D-test positive" or "inducible clindamycin resistance" — clindamycin is OFF the table for that isolate, even though the MIC reading was in the susceptible range [@Siberry2003; @LaPlante2008].
+If the report says "D-test positive" or "inducible clindamycin resistance" — clindamycin is OFF the table for that isolate, even though the MIC reading was in the susceptible range [@Siberry2003; @LaPlante2008].
 :::
 
 ## Efflux — *mef* and *msr*
@@ -158,7 +152,7 @@ Every micro lab in Italy and the US does this routinely. If the report says "D-t
 The M phenotype is the "clindamycin-sparing" pattern. If a pneumococcal pharyngitis or skin isolate comes back erythromycin-R / clindamycin-S, that's most likely efflux — and clindamycin will work without need for a D-test in pneumococci (the D-test is for staphylococci and GAS).
 :::
 
-## Ribosomal Mutations and Atypicals
+## Ribosomal mutations and atypicals
 
 <br>
 
@@ -169,22 +163,19 @@ The M phenotype is the "clindamycin-sparing" pattern. If a pneumococcal pharyngi
   - ***Neisseria gonorrhoeae*** — 23S rRNA mutations and *mtr* efflux
   - ***Helicobacter pylori*** — A2143G is the dominant driver of clarithromycin failure
 
-::: aside
-[@Kawai2013; @Nash1995; @Ng2002; @Meier1996]
-:::
 
-::: notes
-Mycoplasma macrolide resistance is now \>90% in some Asian regions and approaching 30% in parts of Italy — relevant for empiric atypical coverage. H. pylori clarithromycin resistance is the reason quadruple therapy is now first-line in many regions instead of standard triple.
+::: aside
+Mycoplasma macrolide resistance is now \>90% in some Asian regions and approaching 30% in parts of Italy — relevant for empiric atypical coverage. H. pylori clarithromycin resistance is the reason quadruple therapy is now first-line in many regions instead of standard triple [@Kawai2013; @Nash1995; @Ng2002; @Meier1996].
 :::
 
 # Pharmacology {background-color="#b20e10"}
 
-## Erythromycin — Preparations
+## Erythromycin — preparations
 
 <br>
 
 | Preparation | Notes | Typical adult dose |
-|----------------------|------------------|--------------------------------|
+|------------------------|------------------------|------------------------|
 | Base | Acid-labile; enteric-coated | 250–500 mg PO q6–12h |
 | Stearate | Acid-stable salt | Similar |
 | Ethylsuccinate | Suspension/pediatric | 400–800 mg PO q6–12h |
@@ -193,11 +184,11 @@ Mycoplasma macrolide resistance is now \>90% in some Asian regions and approachi
 
 : Erythromycin formulations
 
-::: notes
+::: aside
 The estolate form historically caused cholestatic hepatitis in adults — withdrawn in many markets. The lactobionate IV form is the one to know for hospital use.
 :::
 
-## Erythromycin — Pharmacokinetics
+## Erythromycin — pharmacokinetics
 
 <br>
 
@@ -212,7 +203,7 @@ The estolate form historically caused cholestatic hepatitis in adults — withdr
 Three things to remember about erythromycin PK: short half-life, no renal adjustment, and powerful CYP3A4 interactions. The interactions list is enormous.
 :::
 
-## Erythromycin — Adverse Effects
+## Erythromycin — Adverse effects
 
 <br>
 
@@ -222,15 +213,13 @@ Three things to remember about erythromycin PK: short half-life, no renal adjust
 - **Cardiac:** **QTc prolongation**, torsades de pointes — ↑ with renal dysfunction, drug interactions
 - **Hypertrophic pyloric stenosis** in neonates exposed in early infancy
 
+
+
 ::: aside
-[@Cooper2002; @SanFilippo1976]
+The motilin agonism is why we used IV erythromycin for gastroparesis. The pyloric stenosis association in neonates is a teaching board favorite — it's a real risk in the first 2 weeks of life, with relative risk around 8–10 in case-control series [@Cooper2002; @SanFilippo1976].
 :::
 
-::: notes
-The motilin agonism is why we used IV erythromycin for gastroparesis. The pyloric stenosis association in neonates is a teaching board favorite — it's a real risk in the first 2 weeks of life, with relative risk around 8–10 in case-control series.
-:::
-
-## Drug Interactions — The Statin Story
+## Drug interactions — The statin story
 
 <br>
 
@@ -241,11 +230,11 @@ The motilin agonism is why we used IV erythromycin for gastroparesis. The pylori
 - **Rosuvastatin, pravastatin, fluvastatin** — not significant CYP3A4 substrates, safer pairings
 - **Azithromycin** — minimal effect; preferred macrolide when statin therapy must continue
 
-::: notes
+::: aside
 This is the single most common dangerous drug interaction with macrolides in practice. If a patient is on simvastatin and needs a macrolide for atypical pneumonia, choose azithromycin — not clarithromycin or erythromycin.
 :::
 
-## Macrolides in Pregnancy
+## Macrolides in pregnancy
 
 <br>
 
@@ -256,17 +245,13 @@ This is the single most common dangerous drug interaction with macrolides in pra
 - **Erythromycin estolate avoided** — cholestatic hepatitis in pregnancy
 - Spiramycin (Europe) for gestational toxoplasmosis to prevent vertical transmission
 
+
+
 ::: aside
-[@Cooper2002]
+For pregnant patients needing macrolide therapy, azithromycin is essentially universally first choice — safety data are the best of the class and tolerability is excellent. Clarithromycin gets avoided where possible [@Cooper2002].
 :::
 
-::: notes
-For pregnant patients needing macrolide therapy, azithromycin is essentially universally first choice — safety data are the best of the class and tolerability is excellent. Clarithromycin gets avoided where possible.
-:::
-
-## Erythromycin — Drug Interactions
-
-<br>
+## Erythromycin — Drug interactions
 
 **Potent CYP3A4 inhibitor** — many clinically important interactions:
 
@@ -275,10 +260,12 @@ For pregnant patients needing macrolide therapy, azithromycin is essentially uni
 - **Calcineurin inhibitors** (cyclosporine, tacrolimus) — toxic levels
 - **Theophylline** — toxicity
 - **Carbamazepine** — toxicity
-- **Colchicine** — fatal toxicity reported
+- **Colchicine** — fatal toxicity reported- myopathy, neuromyopathy, bone marrow suppression, and potentially multi-organ failure
 - **QT-prolonging drugs** (amiodarone, sotalol, fluoroquinolones, antipsychotics) — additive arrhythmia risk
 
-::: notes
+<br> <br>
+
+::: aside
 The colchicine interaction has killed patients — and azithromycin shares it. Review the medication list before prescribing any macrolide.
 :::
 
@@ -293,11 +280,11 @@ The colchicine interaction has killed patients — and azithromycin shares it. R
 - **Renal elimination is significant** — reduce dose if CrCl \<30 mL/min
 - **Twice-daily** standard; once-daily extended-release available
 
-::: notes
+::: aside
 The active metabolite is unique to clarithromycin and gives it better Haemophilus activity than its in vitro MIC would suggest. Don't forget to dose-adjust in renal failure — easy to miss because we're trained to think of macrolides as not needing renal adjustment.
 :::
 
-## Azithromycin — the Outlier
+## Azithromycin — the outlier
 
 <br>
 
@@ -308,7 +295,7 @@ The active metabolite is unique to clarithromycin and gives it better Haemophilu
 - **Not a significant CYP3A4 inhibitor** — far fewer drug interactions
 - Predominantly **biliary elimination** — no renal dose adjustment
 
-::: notes
+::: aside
 Azithromycin's tissue pharmacokinetics is *the* clinical fingerprint of this drug. The long half-life is what lets you do single-dose chlamydia treatment, 3-day or 5-day pneumonia courses, and weekly dosing for MAC prophylaxis. It's also why measuring serum azithromycin levels for bacteremia is pointless — the drug is in cells, not blood.
 :::
 
@@ -331,7 +318,7 @@ The classic dichotomy of time-vs-concentration-dependent killing breaks down for
 <br>
 
 | Property           | Erythromycin | Clarithromycin  | Azithromycin                |
-|-----------------|-----------------|-----------------|---------------------|
+|-----------------|-----------------|-----------------|----------------------|
 | Half-life          | 1.5–2 h      | 3–7 h           | 40–68 h                     |
 | Active metabolite  | No           | 14-OH (active)  | No                          |
 | CYP3A4 inhibitor   | Strong       | Strong          | Minimal                     |
