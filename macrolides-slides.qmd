@@ -3,6 +3,8 @@ title: "Macrolides, Ketolides, and Clindamycin"
 
 author: "Russell E. Lewis"
 date: today
+lightbox:
+  match: auto
 format:
   revealjs:
     theme: custom.scss
@@ -10,7 +12,6 @@ format:
     transition: fade
     width: 1280
     height: 720
-    lightbox: true
 bibliography: macrolides-references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
@@ -163,7 +164,6 @@ The M phenotype is the "clindamycin-sparing" pattern. If a pneumococcal pharyngi
   - ***Neisseria gonorrhoeae*** — 23S rRNA mutations and *mtr* efflux
   - ***Helicobacter pylori*** — A2143G is the dominant driver of clarithromycin failure
 
-
 ::: aside
 Mycoplasma macrolide resistance is now \>90% in some Asian regions and approaching 30% in parts of Italy — relevant for empiric atypical coverage. H. pylori clarithromycin resistance is the reason quadruple therapy is now first-line in many regions instead of standard triple [@Kawai2013; @Nash1995; @Ng2002; @Meier1996].
 :::
@@ -213,8 +213,6 @@ Three things to remember about erythromycin PK: short half-life, no renal adjust
 - **Cardiac:** **QTc prolongation**, torsades de pointes — ↑ with renal dysfunction, drug interactions
 - **Hypertrophic pyloric stenosis** in neonates exposed in early infancy
 
-
-
 ::: aside
 The motilin agonism is why we used IV erythromycin for gastroparesis. The pyloric stenosis association in neonates is a teaching board favorite — it's a real risk in the first 2 weeks of life, with relative risk around 8–10 in case-control series [@Cooper2002; @SanFilippo1976].
 :::
@@ -244,8 +242,6 @@ This is the single most common dangerous drug interaction with macrolides in pra
 - Chlamydia in pregnancy → azithromycin single dose
 - **Erythromycin estolate avoided** — cholestatic hepatitis in pregnancy
 - Spiramycin (Europe) for gestational toxoplasmosis to prevent vertical transmission
-
-
 
 ::: aside
 For pregnant patients needing macrolide therapy, azithromycin is essentially universally first choice — safety data are the best of the class and tolerability is excellent. Clarithromycin gets avoided where possible [@Cooper2002].
@@ -307,18 +303,18 @@ Azithromycin's tissue pharmacokinetics is *the* clinical fingerprint of this dru
 - Azithromycin's prolonged post-antibiotic effect supports **once-daily and even single-dose** regimens
 - Erythromycin and clarithromycin are more **time-dependent** — need frequent dosing to maintain trough levels
 - High tissue/plasma ratios for azithromycin mean **serum concentrations underestimate target-site exposure**
-- For intracellular pathogens (Legionella, Chlamydia), tissue concentration is what matters
+- For intracellular pathogens (\*Legionella, Chlamydia), tissue concentration is what matters
 
-::: notes
+::: aside
 The classic dichotomy of time-vs-concentration-dependent killing breaks down for azithromycin — the long tissue half-life and post-antibiotic effect drive efficacy independently of serum trough. Erythromycin and clarithromycin behave more conventionally.
 :::
 
-## Comparing the Three — Quick Reference
+## Comparing the three — Quick reference
 
 <br>
 
 | Property           | Erythromycin | Clarithromycin  | Azithromycin                |
-|-----------------|-----------------|-----------------|----------------------|
+|------------------|------------------|------------------|--------------------|
 | Half-life          | 1.5–2 h      | 3–7 h           | 40–68 h                     |
 | Active metabolite  | No           | 14-OH (active)  | No                          |
 | CYP3A4 inhibitor   | Strong       | Strong          | Minimal                     |
@@ -336,18 +332,11 @@ If you remember nothing else from the PK section, remember this table. It explai
 
 ## QT Prolongation — Mechanism
 
-<br>
+![](macrolides-images/cardiac.png){fig-align="center" width="700"}
 
-- Macrolides block the **hERG (IKr) cardiac potassium channel** → prolonged repolarization
-- Effect is **dose-dependent** and additive with other QT-prolonging drugs
-- Greater risk with:
-  - IV administration / rapid infusion
-  - Underlying long QT, structural heart disease
-  - Hypokalemia, hypomagnesemia
-  - Concurrent QT-prolonging drugs (antipsychotics, fluoroquinolones, ondansetron, methadone)
-  - Female sex, older age
+<br> <br>
 
-::: notes
+::: aside
 The mechanism is the same as quinidine and many other arrhythmogenic drugs. Risk is not uniform across the class — erythromycin \> clarithromycin \> azithromycin in vitro and in epidemiology.
 :::
 
@@ -359,15 +348,11 @@ The mechanism is the same as quinidine and many other arrhythmogenic drugs. Risk
 - **Ray 2012 (NEJM):** During 5-day azithromycin courses, **+47 cardiovascular deaths per million courses** vs. amoxicillin; concentrated in patients at highest baseline cardiovascular risk
 - **Albert 2014 (AJRCCM):** Class-level synthesis — risk is real but small in absolute terms; restrict in high-risk patients
 
-::: aside
-[@Ray2004; @Ray2012; @Albert2014]
-:::
-
 ::: notes
-These three papers reshaped FDA labeling. The absolute risk is small for the average patient but concentrates dramatically in those with structural heart disease, electrolyte derangements, or other QT drugs. Worth a mental checklist before prescribing azithromycin to an older or polypharmacy patient.
+These three papers reshaped FDA/EMA labeling. The absolute risk is small for the average patient but concentrates dramatically in those with structural heart disease, electrolyte derangements, or other QT drugs. Worth a mental checklist before prescribing azithromycin to an older or polypharmacy patient [@Ray2004; @Ray2012; @Albert2014].
 :::
 
-## Allergy and Hypersensitivity
+## Allergy and hypersensitivity
 
 <br>
 
@@ -378,15 +363,11 @@ These three papers reshaped FDA labeling. The absolute risk is small for the ave
 - **Stevens-Johnson syndrome** rare but reported with all macrolides
 - Skin testing not standardized; rechallenge under observation often diagnostic
 
-::: aside
-[@Pejcic2021; @Nappe2016]
-:::
-
 ::: notes
-The "macrolide allergy" label gets attached very loosely in records. Most patients can tolerate alternatives within the class, and clindamycin is safe to use despite being a 50S-binding cousin.
+The "macrolide allergy" label gets attached very loosely in records. Most patients can tolerate alternatives within the class, and clindamycin is safe to use despite being a 50S-binding cousin [@Pejcic2021; @Nappe2016].
 :::
 
-## Practical Risk Stratification
+## Practical risk stratification
 
 <br>
 
@@ -395,13 +376,13 @@ The "macrolide allergy" label gets attached very loosely in records. Most patien
 - **High risk:** known long QT, QT \>500 ms, recent torsades, multiple QT drugs → **avoid** macrolides
 - Check ECG and correct K+ / Mg++ before IV erythromycin in critically ill patients
 
-::: notes
-Practical: I rarely use erythromycin IV in ICU patients without checking baseline QTc and electrolytes. Azithromycin is safer, but not exempt.
+::: aside
+Do not use erythromycin IV in ICU patients without checking baseline QTc and electrolytes. Azithromycin is safer, but not exempt.
 :::
 
 # Spectrum & Clinical Use {background-color="#b20e10"}
 
-## Spectrum — Macrolides at a Glance
+## Spectrum — Macrolides at a glance
 
 <br>
 
@@ -411,12 +392,8 @@ Practical: I rarely use erythromycin IV in ICU patients without checking baselin
 - **None or unreliable:** Enterobacterales (except limited GI use), *Pseudomonas*, *Acinetobacter*, anaerobes (variable), enterococci, MRSA
 - **Mycobacterial:** active against MAC, *M. leprae*; *M. tuberculosis* is intrinsically resistant
 
-::: aside
-[@Bermudez2001]
-:::
-
 ::: notes
-The intracellular niche is where macrolides shine. *M. tuberculosis* is intrinsically resistant — don't confuse it with MAC, which is fully susceptible.
+The intracellular niche is where macrolides shine. *M. tuberculosis* is intrinsically resistant — don't confuse it with MAC, which is fully susceptible [@Bermudez2001].
 :::
 
 ## *M. tuberculosis* — Intrinsic Resistance
