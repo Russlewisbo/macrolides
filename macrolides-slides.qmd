@@ -303,7 +303,7 @@ Azithromycin's tissue pharmacokinetics is *the* clinical fingerprint of this dru
 - Azithromycin's prolonged post-antibiotic effect supports **once-daily and even single-dose** regimens
 - Erythromycin and clarithromycin are more **time-dependent** — need frequent dosing to maintain trough levels
 - High tissue/plasma ratios for azithromycin mean **serum concentrations underestimate target-site exposure**
-- For intracellular pathogens (\*Legionella, Chlamydia), tissue concentration is what matters
+- For intracellular pathogens (*Legionella, Chlamydia*), tissue concentration is what matters
 
 ::: aside
 The classic dichotomy of time-vs-concentration-dependent killing breaks down for azithromycin — the long tissue half-life and post-antibiotic effect drive efficacy independently of serum trough. Erythromycin and clarithromycin behave more conventionally.
@@ -324,8 +324,8 @@ The classic dichotomy of time-vs-concentration-dependent killing breaks down for
 
 : Macrolide comparison
 
-::: notes
-If you remember nothing else from the PK section, remember this table. It explains why azithromycin replaced erythromycin in almost every outpatient indication.
+::: aside
+This table explains why azithromycin replaced erythromycin in almost every outpatient indication.
 :::
 
 # Cardiac Safety {background-color="#b20e10"}
@@ -348,7 +348,7 @@ The mechanism is the same as quinidine and many other arrhythmogenic drugs. Risk
 - **Ray 2012 (NEJM):** During 5-day azithromycin courses, **+47 cardiovascular deaths per million courses** vs. amoxicillin; concentrated in patients at highest baseline cardiovascular risk
 - **Albert 2014 (AJRCCM):** Class-level synthesis — risk is real but small in absolute terms; restrict in high-risk patients
 
-::: notes
+::: aside
 These three papers reshaped FDA/EMA labeling. The absolute risk is small for the average patient but concentrates dramatically in those with structural heart disease, electrolyte derangements, or other QT drugs. Worth a mental checklist before prescribing azithromycin to an older or polypharmacy patient [@Ray2004; @Ray2012; @Albert2014].
 :::
 
@@ -363,7 +363,7 @@ These three papers reshaped FDA/EMA labeling. The absolute risk is small for the
 - **Stevens-Johnson syndrome** rare but reported with all macrolides
 - Skin testing not standardized; rechallenge under observation often diagnostic
 
-::: notes
+::: aside
 The "macrolide allergy" label gets attached very loosely in records. Most patients can tolerate alternatives within the class, and clindamycin is safe to use despite being a 50S-binding cousin [@Pejcic2021; @Nappe2016].
 :::
 
@@ -392,11 +392,11 @@ Do not use erythromycin IV in ICU patients without checking baseline QTc and ele
 - **None or unreliable:** Enterobacterales (except limited GI use), *Pseudomonas*, *Acinetobacter*, anaerobes (variable), enterococci, MRSA
 - **Mycobacterial:** active against MAC, *M. leprae*; *M. tuberculosis* is intrinsically resistant
 
-::: notes
+::: aside
 The intracellular niche is where macrolides shine. *M. tuberculosis* is intrinsically resistant — don't confuse it with MAC, which is fully susceptible [@Bermudez2001].
 :::
 
-## *M. tuberculosis* — Intrinsic Resistance
+## *M. tuberculosis* — Intrinsic resistance
 
 <br>
 
@@ -406,11 +406,11 @@ The intracellular niche is where macrolides shine. *M. tuberculosis* is intrinsi
 - Conversely, **MAC and most NTM are macrolide-susceptible** — species identification matters before therapy
 - Do not include a macrolide in an "expanded TB regimen" — no benefit
 
-::: notes
-This is an exam favorite — students assume "macrolides cover mycobacteria" but TB is the standout exception. The Erm(37) methylase is intrinsic to the species.
+::: aside
+The Erm(37) methylase is intrinsic to the species.
 :::
 
-## Macrolides — Less Common Pathogens
+## Macrolides — Less common pathogens
 
 <br>
 
@@ -420,13 +420,12 @@ This is an exam favorite — students assume "macrolides cover mycobacteria" but
 - ***Rhodococcus equi*** — azithromycin combined with rifampin ± aminoglycoside in immunocompromised
 - ***Mycoplasma genitalium*** — extended-course azithromycin; rising macrolide resistance worldwide
 
-::: notes
+::: aside
 *M. genitalium* is the rising concern — macrolide resistance now exceeds 50% in many MSM cohorts; moxifloxacin is the main alternative.
 :::
 
-## Geographic Resistance Snapshot
+## Geographic resistance snapshot
 
-<br>
 
 - **Macrolide resistance varies dramatically by region** — driven by background prescribing intensity
 - *S. pneumoniae* (invasive isolates, recent surveillance):
@@ -436,15 +435,13 @@ This is an exam favorite — students assume "macrolides cover mycobacteria" but
 - *M. pneumoniae* macrolide resistance: \<10% in most of Europe, 70–95% in parts of China and Japan
 - **Practical:** when traveling or treating recent immigrants from high-resistance regions, mentally adjust empiric coverage
 
+
+
 ::: aside
-[@Xu2010; @Kawai2013]
+The geographic skew matters. Italian and Southern European pneumococcal resistance leans toward *ermB* with high MICs and full MLS~B~ cross-resistance — qualitatively worse than the US efflux pattern [@Xu2010; @Kawai2013].
 :::
 
-::: notes
-The geographic skew matters. Italian and Southern European pneumococcal resistance leans toward *ermB* with high MICs and full MLS~B~ cross-resistance — qualitatively worse than the US efflux pattern.
-:::
-
-## Pneumococcal Susceptibility — the Italian Picture
+## Pneumococcal susceptibility — the Italian Picture
 
 <br>
 
@@ -454,17 +451,15 @@ The geographic skew matters. Italian and Southern European pneumococcal resistan
 - US: more mef-mediated efflux → lower-level resistance
 - **Clinical implication:** azithromycin **monotherapy** is inadequate empiric coverage for bacteremic pneumococcal pneumonia in Italy
 
-::: aside
-[@Xu2010]
-:::
 
-::: notes
-This is one of the most important geographic distinctions in antimicrobial therapy. The European/Italian epidemiology favors high-level MLS~B~ resistance — when you read US guidelines that recommend monotherapy macrolide for outpatient pneumonia, mentally adjust for our resistance landscape.
+
+::: aside
+The European/Italian epidemiology favors high-level MLS~B~ resistance — when you read US guidelines that recommend monotherapy macrolide for outpatient pneumonia, mentally adjust for our resistance landscape [@Xu2010].
 :::
 
 # Clinical Uses — Respiratory {background-color="#b20e10"}
 
-## Community-Acquired Pneumonia
+## Community-acquired pneumonia
 
 <br>
 
@@ -474,14 +469,14 @@ This is one of the most important geographic distinctions in antimicrobial thera
 - **Italy:** pneumococcal resistance generally exceeds the 25% threshold — guideline favors β-lactam + macrolide
 
 ::: aside
-[@Ref294]
+@Martinez2003
 :::
 
-::: notes
+::: aside
 The macrolide adds atypical coverage and possibly immunomodulation. Several observational studies suggest mortality benefit from combination β-lactam + macrolide even when no atypical is identified — possibly an immunomodulatory effect, possibly residual confounding.
 :::
 
-## Atypical Pneumonia
+## Atypical pneumonia
 
 <br>
 
@@ -490,12 +485,10 @@ The macrolide adds atypical coverage and possibly immunomodulation. Several obse
 - **Legionella pneumophila** — azithromycin or fluoroquinolone (levofloxacin preferred for severe disease)
 - *Mycoplasma* macrolide resistance is a particular issue in pediatric cases — consider doxycycline if no response after 48 h of macrolide
 
-::: aside
-[@Critchley2002; @Kawai2013]
-:::
+
 
 ::: notes
-For severe Legionella, most experts prefer levofloxacin over azithromycin, based on observational data — though the comparison has never been done in a proper RCT.
+For severe Legionella, most experts prefer levofloxacin over azithromycin, based on observational data — though the comparison has never been done in a proper RCT [@Critchley2002; @Kawai2013].
 :::
 
 ## Pertussis
