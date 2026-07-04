@@ -468,12 +468,9 @@ The European/Italian epidemiology favors high-level MLS~B~ resistance — when y
 - Inpatient CAP: ceftriaxone + azithromycin remains a standard regimen
 - **Italy:** pneumococcal resistance generally exceeds the 25% threshold — guideline favors β-lactam + macrolide
 
-::: aside
-@Martinez2003
-:::
 
 ::: aside
-The macrolide adds atypical coverage and possibly immunomodulation. Several observational studies suggest mortality benefit from combination β-lactam + macrolide even when no atypical is identified — possibly an immunomodulatory effect, possibly residual confounding.
+The macrolide adds atypical coverage and possibly immunomodulation. Several observational studies suggest mortality benefit from combination β-lactam + macrolide even when no atypical is identified — possibly an immunomodulatory effect, possibly residual confounding [@Martinez2003].
 :::
 
 ## Atypical pneumonia
@@ -487,7 +484,7 @@ The macrolide adds atypical coverage and possibly immunomodulation. Several obse
 
 
 
-::: notes
+::: aside
 For severe Legionella, most experts prefer levofloxacin over azithromycin, based on observational data — though the comparison has never been done in a proper RCT [@Critchley2002; @Kawai2013].
 :::
 
