@@ -501,7 +501,7 @@ For severe Legionella, most experts prefer levofloxacin over azithromycin, based
 [@Aoyama1996; @Sprauer1992; @Ref303]
 :::
 
-::: notes
+::: aside
 The pyloric stenosis signal is real but rare. The take-home: if you must treat a neonate, use azithromycin and counsel parents about projectile vomiting in the first weeks.
 :::
 
@@ -518,11 +518,11 @@ The pyloric stenosis signal is real but rare. The take-home: if you must treat a
 [@Ref344; @Nash1995]
 :::
 
-::: notes
+::: aside
 Macrolide monotherapy is the cardinal sin in MAC — resistance emerges in weeks. The combination regimen is mandatory.
 :::
 
-## Diffuse Panbronchiolitis and Chronic Airway Disease
+## Diffuse panbronchiolitis and bhronic airway disease
 
 <br>
 
