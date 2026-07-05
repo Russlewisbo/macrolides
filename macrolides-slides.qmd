@@ -765,15 +765,24 @@ Bacteroides resistance is the reason clindamycin is no longer the go-to for intr
 <br>
 
 - Clindamycin has the **highest relative risk** of CDI among commonly used antibiotics in many epidemiologic studies
+
 - Disrupts colonic anaerobic flora → permissive environment for *C. difficile*
+
 - Risk persists for **weeks to months** after exposure
+
 - All forms (oral, IV, topical, even vaginal cream) implicated
+
 - **Practical:** don't reach for clindamycin reflexively if a narrower or safer alternative exists in elderly, hospitalized, or recently antibiotic-exposed patients
-- 
 
 ::: aside
 This is the single most important point about clindamycin for inpatient prescribing. The CDI risk is real, durable, and now confounds risk-benefit for many traditional indications [@Ref444; @Gantz1979; @Meadowcroft1998].
 :::
+
+## Why is clindamycin uniquely good at selecting C. difficile?
+
+![](macrolides-images/cdiff_risk.png){fig-align="center"}
+
+## More theoretical than real-life?
 
 # Clindamycin — Clinical uses {background-color="#b20e10"}
 
@@ -815,7 +824,7 @@ For a typical community-acquired lung abscess, clindamycin 600 mg IV q8h or 450 
 [@Siberry2003; @LaPlante2008]
 :::
 
-## The Eagle effect — Why Penicillin alone fails
+## The Eagle effect — Why penicillin alone fails
 
 <br>
 
@@ -845,11 +854,11 @@ The Eagle effect is the mechanistic justification for adjunctive clindamycin in 
 [@Stevens2007; @Stevens1987b]
 :::
 
-::: notes
-This is one of the highest-yield infectious diseases concepts. Penicillin alone is theoretically sufficient to kill *S. pyogenes*, but in fulminant disease the bacteria are not actively growing (stationary phase) — penicillin loses efficacy ("Eagle effect"), and we need a protein synthesis inhibitor to shut down toxin production *and* the cytokine storm.
+::: aside
+Penicillin alone is theoretically sufficient to kill *S. pyogenes*, but in fulminant disease the bacteria are not actively growing (stationary phase) — penicillin loses efficacy ("Eagle effect"), and we need a protein synthesis inhibitor to shut down toxin production *and* the cytokine storm.
 :::
 
-## Streptococcal and Staphylococcal TSS
+## Streptococcal and staphylococcal TSS
 
 <br>
 
@@ -858,11 +867,11 @@ This is one of the highest-yield infectious diseases concepts. Penicillin alone 
 - **IVIG** considered in fulminant disease, particularly streptococcal TSS
 - Clindamycin should be added even if the isolate's susceptibility hasn't returned
 
-::: notes
-Don't wait for susceptibilities — add empiric clindamycin in any case of invasive GAS or staphylococcal TSS. The toxin-suppression benefit is the urgent issue, not the kill.
+::: aside
+Don't wait for susceptibilities — add empiric clindamycin in any case of invasive GAS or staphylococcal TSS. The toxin-suppression benefit is the urgent issue, not the kill and anti-toxin effects may not closely follow the MIC.
 :::
 
-## *Clostridium perfringens* and Gas Gangrene
+## *Clostridium perfringens* and gas gangrene
 
 <br>
 
@@ -875,7 +884,7 @@ Don't wait for susceptibilities — add empiric clindamycin in any case of invas
 [@Stevens1987b]
 :::
 
-## Bone and Joint Infections
+## Bone and joint infections
 
 <br>
 
@@ -884,7 +893,7 @@ Don't wait for susceptibilities — add empiric clindamycin in any case of invas
 - Long-course oral therapy possible after IV induction — high oral bioavailability supports outpatient regimens
 - Check D-test for staphylococci before committing to a prolonged clindamycin course
 
-::: notes
+::: aside
 For pediatric osteomyelitis where TMP/SMX is unappealing, clindamycin is often a backbone of long-course therapy — provided susceptibilities support it.
 :::
 
@@ -901,7 +910,7 @@ For pediatric osteomyelitis where TMP/SMX is unappealing, clindamycin is often a
 [@Safrin1996; @Benfield2008]
 :::
 
-## Cerebral Toxoplasmosis
+## Cerebral toxoplasmosis
 
 <br>
 
@@ -914,7 +923,7 @@ For pediatric osteomyelitis where TMP/SMX is unappealing, clindamycin is often a
 [@Dannemann1992; @Pfefferkorn1992]
 :::
 
-## Bacterial Vaginosis
+## Bacterial vaginosis
 
 <br>
 
@@ -928,7 +937,7 @@ For pediatric osteomyelitis where TMP/SMX is unappealing, clindamycin is often a
 [@Schmitt1992; @Haahr2016; @Lamont2017]
 :::
 
-## Malaria — Clindamycin's Antiparasitic Role
+## Malaria — Clindamycin's antiparasitic Role
 
 <br>
 
@@ -945,7 +954,7 @@ For pediatric osteomyelitis where TMP/SMX is unappealing, clindamycin is often a
 The apicoplast story is one of the more elegant in antiparasitic pharmacology — *Plasmodium* retains a vestigial prokaryotic organelle, which is why a 70S-targeting antibiotic works against it.
 :::
 
-## Severe Babesiosis
+## Severe babesiosis
 
 <br>
 
@@ -960,7 +969,7 @@ The apicoplast story is one of the more elegant in antiparasitic pharmacology �
 
 # Practical Pearls {background-color="#b20e10"}
 
-## What I Want You to Remember — Macrolides
+## What you should remember — Macrolides
 
 <br>
 
@@ -971,7 +980,7 @@ The apicoplast story is one of the more elegant in antiparasitic pharmacology �
 - **QT prolongation** is real — risk-stratify before prescribing in older, polypharmacy, or cardiac patients
 - **Italian pneumococcal resistance** is high — macrolide monotherapy is not adequate for bacteremic CAP locally
 
-## What I Want You to Remember — Ketolides
+## What you should remember — Ketolides
 
 <br>
 
@@ -981,7 +990,7 @@ The apicoplast story is one of the more elegant in antiparasitic pharmacology �
 - Nafithromycin may emerge in Indian and Asian markets
 - For now, the ketolide class is essentially clinically unavailable in Europe
 
-## What I Want You to Remember — Clindamycin
+## What you should remember— Clindamycin
 
 <br>
 
@@ -1002,11 +1011,11 @@ The apicoplast story is one of the more elegant in antiparasitic pharmacology �
 - Net effect: contributed to short-term azithromycin overprescribing → measurable rises in macrolide resistance in some regions
 - Lesson: enthusiasm without RCT data can drive unintended antimicrobial selection pressure
 
-::: notes
+::: aside
 The COVID-azithromycin story is a useful real-world example of how soft evidence can drive enormous prescribing surges. RECOVERY and PRINCIPLE definitively settled the question — but not before a year of overuse.
 :::
 
-## Pediatric Considerations
+## Pediatric considerations
 
 <br>
 
@@ -1016,11 +1025,11 @@ The COVID-azithromycin story is a useful real-world example of how soft evidence
 - Clarithromycin dosed pediatrically for MAC, *H. pylori*, and pertussis
 - Macrolide-resistant *M. pneumoniae* now common in pediatric outbreaks — consider doxycycline or fluoroquinolone for non-responders \>8 years old
 
-::: notes
+::: aside
 The pediatric story has shifted considerably with rising macrolide resistance — particularly Mycoplasma. The old "azithromycin solves everything in children" mindset needs adjustment for the modern resistance landscape.
 :::
 
-## Antimicrobial Stewardship Implications
+## Antimicrobial stewardship implications
 
 <br>
 
@@ -1033,16 +1042,10 @@ The pediatric story has shifted considerably with rising macrolide resistance �
   - Substitute doxycycline for chlamydia in non-pregnant patients
 - Reducing macrolide pressure has reduced pneumococcal resistance in Finland, Belgium, US ambulatory settings
 
-::: notes
+::: aside
 The most direct interventions: switch from azithro to doxy for urogenital and rectal chlamydia, and don't reach for azithro for self-limited URIs. Both have measurable downstream effects on community resistance.
 :::
 
-## Thank You
+## 
 
-<br>
-
-Questions?
-
-::: notes
-Reserve 10–15 minutes for case-based Q&A. Suggested cases: (1) post-influenza pneumonia with bacteremia — choose empiric coverage in our setting; (2) toxic shock case — when do you add clindamycin and for how long; (3) a 78-year-old on amiodarone with bronchitis — what to avoid.
-:::
+## References
