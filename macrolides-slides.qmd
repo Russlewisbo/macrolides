@@ -654,14 +654,13 @@ The chemistry was elegant — a dual-binding ketolide that would defeat the most
 - Now rarely used; not available in many European markets
 
 ::: aside
-[@Shain2002]
 :::
 
 ::: notes
-Telithromycin is the cautionary tale that informed the solithromycin review. The hepatotoxicity was not predicted by the macrolide class profile — something specific about the ketolide modification.
+Telithromycin is the cautionary tale that informed the solithromycin review. The hepatotoxicity was not predicted by the macrolide class profile — something specific about the ketolide modification [@Shain2002].
 :::
 
-## Solithromycin — Promise and Fall
+## Solithromycin — Promise and fall
 
 <br>
 
@@ -672,14 +671,10 @@ Telithromycin is the cautionary tale that informed the solithromycin review. The
 - Gonorrhea phase 3 (Fernandes 2019, Lancet ID) — efficacy demonstrated but moot
 
 ::: aside
-[@Donald2017; @Fernandes2019; @Lang2022]
+Solithromycin is the drug we needed for MLS~B~-resistant pneumococcus, M. genitalium, and gonorrhea — and we don't have it. The FDA was probably right to be cautious given telithromycin, but the field lost a useful agent [@Donald2017; @Fernandes2019; @Lang2022].
 :::
 
-::: notes
-Solithromycin is the drug we needed for MLS~B~-resistant pneumococcus, M. genitalium, and gonorrhea — and we don't have it. The FDA was probably right to be cautious given telithromycin, but the field lost a useful agent.
-:::
-
-## Lefamulin — A Cousin, Not a Ketolide
+## Lefamulin — A Cousin, not a ketolide
 
 <br>
 
@@ -690,11 +685,11 @@ Solithromycin is the drug we needed for MLS~B~-resistant pneumococcus, M. genita
 - Adverse effects: QTc prolongation (CYP3A4 substrate and inhibitor — interactions matter)
 - Conceptual placeholder for the gap solithromycin would have filled
 
-::: notes
+::: aside
 Lefamulin isn't a macrolide, but mention it because it occupies the niche solithromycin would have occupied — an oral agent active against MLS~B~-resistant pneumococcus for CABP. Penetration is okay but not great; QT and drug interactions limit broad use.
 :::
 
-## Newer Ketolides
+## Newer ketolides
 
 <br>
 
@@ -702,7 +697,7 @@ Lefamulin isn't a macrolide, but mention it because it occupies the niche solith
 - **Cethromycin** — never reached market; failed phase 3
 - The ketolide pipeline has stalled — investment moved to oxazolidinones and lefamulin instead
 
-::: notes
+::: aside
 Nafithromycin is one to watch — particularly for the Indian market, where it may be approved before any Western regulator considers it. The class is unlikely to return to wider use without a clearly safer molecule.
 :::
 
@@ -717,30 +712,26 @@ Nafithromycin is one to watch — particularly for the Indian market, where it m
 - Improved oral absorption, GI tolerability, and antimicrobial potency vs. parent
 - Not a macrolide — but binds the same 23S rRNA site, hence MLS~B~ cross-resistance
 
-::: aside
-[@McGehee1968]
-:::
-
 ::: notes
-The Lincoln, Nebraska origin gave the parent compound its name. Clindamycin is the semi-synthetic improvement that made the class clinically useful.
+The Lincoln, Nebraska origin gave the parent compound its name. Clindamycin is the semi-synthetic improvement that made the class clinically useful [@McGehee1968].
 :::
 
-## Clindamycin — Pharmacology
+## Clindamycin — pharmacology
 
 <br>
 
-- **Oral bioavailability \~90%** (clindamycin HCl capsule) — best of any antibiotic, can switch IV→PO 1:1
+- **Oral bioavailability \~90%** (clindamycin HCl capsule) — can switch IV→PO 1:1
 - **Half-life:** \~2.5 hours; q6–8h dosing
 - **Distribution:** excellent into bone, joint, lung, abscess; **poor CNS penetration** even with inflamed meninges
 - **Metabolism:** hepatic; **no renal adjustment needed**
 - **Active metabolites** contribute to bactericidal activity in some settings
 - Excellent intracellular concentrations (macrophages, PMNs)
 
-::: notes
+::: aside
 The 90% oral bioavailability is critical clinically — when a patient is improving and tolerating PO, you can transition without any dose change. That makes clindamycin uniquely friendly for outpatient antibiotic therapy (OPAT) deescalation.
 :::
 
-## Clindamycin — Spectrum
+## Clindamycin — spectrum
 
 <br>
 
@@ -758,19 +749,18 @@ The 90% oral bioavailability is critical clinically — when a patient is improv
 <br>
 
 - MLS~B~ (constitutive or inducible) — covered earlier; check D-test for staph and GAS
+
 - ***Bacteroides fragilis*** resistance rising — current European rates 25–50% (varies); empiric reliance for intraabdominal infection has been abandoned
+
 - Resistance in *Clostridioides difficile* irrelevant to therapy because clindamycin **causes** rather than treats CDI
+
 - *Lnu* nucleotidyltransferase genes — emerging in streptococci
 
-::: aside
-[@Achard2005]
-:::
-
 ::: notes
-Bacteroides resistance is the reason clindamycin is no longer the go-to for intraabdominal infection — metronidazole or β-lactam/inhibitor combos cover anaerobes more reliably. Stick to clindamycin for above-diaphragm anaerobes and toxin-mediated indications.
+Bacteroides resistance is the reason clindamycin is no longer the go-to for intraabdominal infection — metronidazole or β-lactam/inhibitor combos cover anaerobes more reliably. Stick to clindamycin for above-diaphragm anaerobes and toxin-mediated indications [@Achard2005].
 :::
 
-## *Clostridioides difficile* — The Cardinal Adverse Effect
+## *Clostridioides difficile* — The cardinal adverse effect
 
 <br>
 
@@ -779,30 +769,27 @@ Bacteroides resistance is the reason clindamycin is no longer the go-to for intr
 - Risk persists for **weeks to months** after exposure
 - All forms (oral, IV, topical, even vaginal cream) implicated
 - **Practical:** don't reach for clindamycin reflexively if a narrower or safer alternative exists in elderly, hospitalized, or recently antibiotic-exposed patients
+- 
 
 ::: aside
-[@Ref444; @Gantz1979; @Meadowcroft1998]
+This is the single most important point about clindamycin for inpatient prescribing. The CDI risk is real, durable, and now confounds risk-benefit for many traditional indications [@Ref444; @Gantz1979; @Meadowcroft1998].
 :::
 
-::: notes
-This is the single most important point about clindamycin for inpatient prescribing. The CDI risk is real, durable, and now confounds risk-benefit for many traditional indications.
-:::
+# Clindamycin — Clinical uses {background-color="#b20e10"}
 
-# Clindamycin — Clinical Uses {background-color="#b20e10"}
-
-## Anaerobic Infections
+## Anaerobic infections
 
 <br>
 
 - **Classic role:** above-the-diaphragm anaerobes — aspiration pneumonia, lung abscess, dental infections, head and neck space infections
-- **Below-the-diaphragm:** historically used for intraabdominal infection (B. fragilis); now superseded by metronidazole, β-lactam/inhibitor combinations due to rising resistance
+- **Below-the-diaphragm:** historically used for intraabdominal infection (*B. fragilis*); now superseded by metronidazole, β-lactam/inhibitor combinations due to rising resistance
 - **Necrotizing soft tissue infection:** part of empiric broad-spectrum coverage (synergy plus toxin suppression)
 
-::: notes
+::: aside
 The above/below diaphragm rule is a useful heuristic — anaerobes above the diaphragm (mouth, throat, aspirated material) remain reliably clindamycin-susceptible; gut anaerobes much less so.
 :::
 
-## Aspiration Pneumonia and Lung Abscess
+## Aspiration pneumonia and lung abscess
 
 <br>
 
@@ -811,11 +798,11 @@ The above/below diaphragm rule is a useful heuristic — anaerobes above the dia
 - Alternative: β-lactam/β-lactamase inhibitor (amoxicillin-clavulanate, ampicillin-sulbactam)
 - Duration typically 3–6 weeks based on imaging and clinical response
 
-::: notes
+::: aside
 For a typical community-acquired lung abscess, clindamycin 600 mg IV q8h or 450 mg PO q8h works well. The choice between clindamycin and amoxicillin-clavulanate depends on local resistance patterns and patient factors.
 :::
 
-## CA-MRSA Skin and Soft Tissue Infection
+## CA-MRSA skin and soft tissue infection
 
 <br>
 
@@ -828,7 +815,7 @@ For a typical community-acquired lung abscess, clindamycin 600 mg IV q8h or 450 
 [@Siberry2003; @LaPlante2008]
 :::
 
-## The Eagle Effect — Why Penicillin Alone Fails
+## The Eagle effect — Why Penicillin alone fails
 
 <br>
 
@@ -838,11 +825,11 @@ For a typical community-acquired lung abscess, clindamycin 600 mg IV q8h or 450 
 - Direct evidence in necrotizing fasciitis mouse models
 - Justifies adjunctive clindamycin in invasive GAS even when isolate is susceptible to penicillin
 
-::: notes
+::: aside
 The Eagle effect is the mechanistic justification for adjunctive clindamycin in invasive GAS. Penicillin is bactericidal only against actively dividing organisms — in a fulminant infection most bugs are in stationary phase and penicillin loses its punch.
 :::
 
-## Necrotizing Fasciitis and Invasive GAS
+## Necrotizing fasciitis and invasive GAS
 
 <br>
 
