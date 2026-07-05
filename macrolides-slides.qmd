@@ -314,7 +314,7 @@ The classic dichotomy of time-vs-concentration-dependent killing breaks down for
 <br>
 
 | Property           | Erythromycin | Clarithromycin  | Azithromycin                |
-|------------------|------------------|------------------|--------------------|
+|------------------|------------------|------------------|-------------------|
 | Half-life          | 1.5–2 h      | 3–7 h           | 40–68 h                     |
 | Active metabolite  | No           | 14-OH (active)  | No                          |
 | CYP3A4 inhibitor   | Strong       | Strong          | Minimal                     |
@@ -426,7 +426,6 @@ The Erm(37) methylase is intrinsic to the species.
 
 ## Geographic resistance snapshot
 
-
 - **Macrolide resistance varies dramatically by region** — driven by background prescribing intensity
 - *S. pneumoniae* (invasive isolates, recent surveillance):
   - North America: \~30–40% (mostly *mef*-mediated, lower MICs)
@@ -434,8 +433,6 @@ The Erm(37) methylase is intrinsic to the species.
   - East Asia: 50–80% (very high, predominantly *ermB*)
 - *M. pneumoniae* macrolide resistance: \<10% in most of Europe, 70–95% in parts of China and Japan
 - **Practical:** when traveling or treating recent immigrants from high-resistance regions, mentally adjust empiric coverage
-
-
 
 ::: aside
 The geographic skew matters. Italian and Southern European pneumococcal resistance leans toward *ermB* with high MICs and full MLS~B~ cross-resistance — qualitatively worse than the US efflux pattern [@Xu2010; @Kawai2013].
@@ -450,8 +447,6 @@ The geographic skew matters. Italian and Southern European pneumococcal resistan
 - Dominant mechanism in Europe: ***erm*****B (MLS~B~)** → high MICs, also clindamycin-R
 - US: more mef-mediated efflux → lower-level resistance
 - **Clinical implication:** azithromycin **monotherapy** is inadequate empiric coverage for bacteremic pneumococcal pneumonia in Italy
-
-
 
 ::: aside
 The European/Italian epidemiology favors high-level MLS~B~ resistance — when you read US guidelines that recommend monotherapy macrolide for outpatient pneumonia, mentally adjust for our resistance landscape [@Xu2010].
@@ -468,7 +463,6 @@ The European/Italian epidemiology favors high-level MLS~B~ resistance — when y
 - Inpatient CAP: ceftriaxone + azithromycin remains a standard regimen
 - **Italy:** pneumococcal resistance generally exceeds the 25% threshold — guideline favors β-lactam + macrolide
 
-
 ::: aside
 The macrolide adds atypical coverage and possibly immunomodulation. Several observational studies suggest mortality benefit from combination β-lactam + macrolide even when no atypical is identified — possibly an immunomodulatory effect, possibly residual confounding [@Martinez2003].
 :::
@@ -481,8 +475,6 @@ The macrolide adds atypical coverage and possibly immunomodulation. Several obse
 - **Chlamydia pneumoniae** — azithromycin, clarithromycin, doxycycline
 - **Legionella pneumophila** — azithromycin or fluoroquinolone (levofloxacin preferred for severe disease)
 - *Mycoplasma* macrolide resistance is a particular issue in pediatric cases — consider doxycycline if no response after 48 h of macrolide
-
-
 
 ::: aside
 For severe Legionella, most experts prefer levofloxacin over azithromycin, based on observational data — though the comparison has never been done in a proper RCT [@Critchley2002; @Kawai2013].
@@ -515,14 +507,10 @@ The pyloric stenosis signal is real but rare. The take-home: if you must treat a
 - Azithromycin: weekly 1200 mg for **primary prophylaxis** in AIDS patients with CD4 \<50 (largely obsolete since modern ART)
 
 ::: aside
-[@Ref344; @Nash1995]
+Macrolide monotherapy is the cardinal sin in MAC — resistance emerges in weeks. The combination regimen is mandatory [@Ref344; @Nash1995].
 :::
 
-::: aside
-Macrolide monotherapy is the cardinal sin in MAC — resistance emerges in weeks. The combination regimen is mandatory.
-:::
-
-## Diffuse panbronchiolitis and bhronic airway disease
+## Diffuse panbronchiolitis and chronic airway disease
 
 <br>
 
@@ -531,15 +519,11 @@ Macrolide monotherapy is the cardinal sin in MAC — resistance emerges in weeks
 - **Non-CF bronchiectasis:** azithromycin reduces exacerbations
 - **COPD** (Albert 2011, NEJM): azithromycin 250 mg daily reduced acute exacerbations — but hearing loss and arrhythmias limit chronic use
 
-::: aside
-[@Kudoh1998; @Albert2011]
-:::
-
 ::: notes
-This is one of the most interesting stories in antimicrobial pharmacology — a drug that works not by killing bacteria but by modulating innate immunity. Quorum sensing inhibition in Pseudomonas, decreased neutrophil chemotaxis, reduced pro-inflammatory cytokine release. Mechanism still debated.
+This is one of the most interesting stories in antimicrobial pharmacology — a drug that works not by killing bacteria but by modulating innate immunity. Quorum sensing inhibition in Pseudomonas, decreased neutrophil chemotaxis, reduced pro-inflammatory cytokine release. Mechanism still debated [@Kudoh1998; @Albert2011].
 :::
 
-# Clinical Uses — Non-Respiratory {background-color="#b20e10"}
+# Clinical uses — Non-Respiratory {background-color="#b20e10"}
 
 ## *Helicobacter pylori*
 
@@ -550,12 +534,8 @@ This is one of the most interesting stories in antimicrobial pharmacology — a 
 - Macrolide resistance driven by A2143G mutation in 23S rRNA
 - Consider testing for susceptibility before retreatment
 
-::: aside
-[@Abdellatif2019]
-:::
-
 ::: notes
-The H. pylori story illustrates the cost of widespread macrolide use — what was once a 90%+ cure rate has eroded to 70% in many regions because of background macrolide exposure for other indications.
+The *H. pylori* story illustrates the cost of widespread macrolide use — what was once a 90%+ cure rate has eroded to 70% in many regions because of background macrolide exposure for other indications [@Abdellatif2019].
 :::
 
 ## *Chlamydia trachomatis* — Urogenital and Rectal
@@ -568,14 +548,10 @@ The H. pylori story illustrates the cost of widespread macrolide use — what wa
 - **Current US/European guideline:** **doxycycline 7 days is first-line**; azithromycin reserved for adherence concerns or pregnancy
 
 ::: aside
-[@Geisler2015; @Lau2021]
+The pendulum has swung. Single-dose azithromycin was beloved for its adherence advantage, but the doxycycline data — particularly in rectal infection — are now compelling. Save azithromycin for patients who absolutely cannot take a 7-day regimen [@Geisler2015; @Lau2021].
 :::
 
-::: notes
-The pendulum has swung. Single-dose azithromycin was beloved for its adherence advantage, but the doxycycline data — particularly in rectal infection — are now compelling. Save azithromycin for patients who absolutely cannot take a 7-day regimen.
-:::
-
-## Trachoma and Mass Drug Administration
+## Trachoma and mass drug administration
 
 <br>
 
@@ -585,14 +561,10 @@ The pendulum has swung. Single-dose azithromycin was beloved for its adherence a
 - MORDOR II (Keenan 2019): benefit persists but **growing concern about resistance selection** — including macrolide-R *S. pneumoniae*, *E. coli*, *S. aureus*
 
 ::: aside
-[@Bailey1993; @Keenan2018; @Keenan2019]
+MORDOR was a paradigm-shifting trial — but also a cautionary tale. We're saving lives now at the cost of seeding resistance for the future. The WHO is grappling with how to balance these [@Bailey1993; @Keenan2018; @Keenan2019].
 :::
 
-::: notes
-MORDOR was a paradigm-shifting trial — but also a cautionary tale. We're saving lives now at the cost of seeding resistance for the future. The WHO is grappling with how to balance these.
-:::
-
-## *Neisseria gonorrhoeae* — Don't Use Azithromycin
+## *Neisseria gonorrhoeae* — Don't use azithromycin!
 
 <br>
 
@@ -602,15 +574,11 @@ MORDOR was a paradigm-shifting trial — but also a cautionary tale. We're savin
 - Macrolide resistance driven by 23S rRNA mutations and *mtr* efflux upregulation
 - Solithromycin tested in Phase 3 — efficacy demonstrated but FDA rejected the drug on safety grounds
 
-::: aside
-[@Ng2002; @Ref221; @Fernandes2019]
-:::
-
 ::: notes
-The CDC dropped azithromycin from dual therapy in 2020 because rates of azithromycin-R gonorrhea exceeded 5% — now monotherapy ceftriaxone at a higher dose is standard. Test of cure is essential.
+Guidelines have dropped azithromycin from dual therapy in 2020 because rates of azithromycin-R gonorrhea exceeded 5% — now monotherapy ceftriaxone at a higher dose is standard. Test of cure is essential [@Ng2002; @Ref221; @Fernandes2019].
 :::
 
-## Toxoplasmosis and Pregnancy
+## Toxoplasmosis and pregnancy
 
 <br>
 
@@ -619,14 +587,10 @@ The CDC dropped azithromycin from dual therapy in 2020 because rates of azithrom
 - Azithromycin + pyrimethamine — alternative to sulfadiazine + pyrimethamine in sulfa-allergic patients with cerebral toxoplasmosis (less data than clindamycin-based regimen — see clindamycin section)
 
 ::: aside
-[@Ribeiro2017; @Derouin1990]
+Spiramycin is not available in the US — clinicians have to import it for confirmed gestational toxoplasmosis. Europe is the leader in toxoplasmosis screening and management [@Ribeiro2017; @Derouin1990].
 :::
 
-::: notes
-Spiramycin is not available in the US — clinicians have to import it for confirmed gestational toxoplasmosis. Europe is the leader in toxoplasmosis screening and management.
-:::
-
-## Syphilis — A Cautionary Tale
+## Syphilis — A cautionary tale
 
 <br>
 
@@ -636,7 +600,7 @@ Spiramycin is not available in the US — clinicians have to import it for confi
 - US CDC guideline 2021: **azithromycin no longer recommended** for syphilis — desensitization to penicillin preferred for allergy
 - Illustrative of how rapidly macrolide resistance can emerge in slow-growing pathogens
 
-::: notes
+::: aside
 The syphilis story is striking — within a few years of azithromycin being promoted as an alternative, resistance had spread so widely it had to be withdrawn from guidelines. A reminder that macrolide-target organisms with few rRNA copies are exquisitely vulnerable to single-step resistance.
 :::
 
@@ -649,37 +613,24 @@ The syphilis story is striking — within a few years of azithromycin being prom
 - Immunocompromised patients (asplenic, B-cell lymphoma, anti-CD20 therapy) require prolonged courses (≥6 weeks)
 
 ::: aside
-[@Krause2000; @Krause2021]
-:::
-
-::: notes
-Krause 2000 was the landmark NEJM trial that established atovaquone + azithromycin as equivalent to clindamycin + quinine with much better tolerance. Severe and immunocompromised cases still get the older regimen.
+Krause 2000 was the landmark NEJM trial that established atovaquone + azithromycin as equivalent to clindamycin + quinine with much better tolerance. Severe and immunocompromised cases still get the older regimen [@Krause2000; @Krause2021].
 :::
 
 # Macrolide Immunomodulation {background-color="#b20e10"}
 
-## Macrolides as Immunomodulators
+## Macrolides as immunomodulators
 
 <br>
 
-- Anti-inflammatory effects independent of antibacterial activity:
-  - ↓ neutrophil chemotaxis and superoxide production
-  - ↓ pro-inflammatory cytokine release (IL-6, IL-8, TNF-α)
-  - ↑ macrophage phagocytic clearance of apoptotic cells (efferocytosis)
-  - Interference with *Pseudomonas* quorum sensing and biofilm
-- Clinical evidence: DPB, CF, COPD, post-transplant bronchiolitis obliterans
+![](macrolides-images/immunomodulation.png){fig-align="center" width="800"}
 
 ::: aside
-[@Mikasa1992; @Keicho2002]
-:::
-
-::: notes
-The mechanism story is messy — multiple proposed pathways, none singularly proven. But the clinical effect in DPB, CF, and COPD is real and reproducible. It's the leading edge of the "antibiotics as immunomodulators" field.
+The mechanism story is messy — multiple proposed pathways, none singularly proven. But the clinical effect in DPB, CF, and COPD is real and reproducible. It's the leading edge of the "antibiotics as immunomodulators" field [@Mikasa1992; @Keicho2002].
 :::
 
 # Ketolides {background-color="#b20e10"}
 
-## Ketolides — Designed to Overcome MLS~B~
+## Ketolides — Designed to overcome MLS~B~
 
 <br>
 
@@ -688,7 +639,7 @@ The mechanism story is messy — multiple proposed pathways, none singularly pro
 - **Telithromycin** — first ketolide approved (2004); now severely restricted
 - **Solithromycin** — second-generation; FDA rejected 2016
 
-::: notes
+::: aside
 The chemistry was elegant — a dual-binding ketolide that would defeat the most prevalent macrolide resistance mechanism. The pharmacology delivered. The toxicology did not.
 :::
 
