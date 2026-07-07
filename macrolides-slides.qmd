@@ -96,7 +96,7 @@ The static/cidal distinction is over-emphasized in textbooks, but it does matter
 ## Three resistance mechanisms — Overview
 
 | Mechanism | Effect | Cross-resistance |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Target site modification** (Erm methylation, ribosomal mutation) | 23S A2058 methylated/mutated | Full MLS~B~ (macrolides + lincosamides + streptogramin B) |
 | **Efflux** (Mef, Msr) | Drug pumped out of cell | Macrolides only (M phenotype) — clindamycin spared |
 | **Enzymatic inactivation** (esterases, phosphotransferases) | Drug destroyed | Variable; uncommon clinically |
@@ -184,7 +184,7 @@ Mycoplasma macrolide resistance is now \>90% in some Asian regions and approachi
 <br>
 
 | Preparation | Notes | Typical adult dose |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Base | Acid-labile; enteric-coated | 250–500 mg PO q6–12h |
 | Stearate | Acid-stable salt | Similar |
 | Ethylsuccinate | Suspension/pediatric | 400–800 mg PO q6–12h |
@@ -325,7 +325,7 @@ The classic dichotomy of time-vs-concentration-dependent killing breaks down for
 <br>
 
 | Property           | Erythromycin | Clarithromycin  | Azithromycin                |
-|-----------------|-----------------|-----------------|----------------------|
+|--------------------|--------------|-----------------|-----------------------------|
 | Half-life          | 1.5–2 h      | 3–7 h           | 40–68 h                     |
 | Active metabolite  | No           | 14-OH (active)  | No                          |
 | CYP3A4 inhibitor   | Strong       | Strong          | Minimal                     |
@@ -774,6 +774,10 @@ Bacteroides resistance is the reason clindamycin is no longer the go-to for intr
 ## *Clostridioides difficile* — The cardinal adverse effect
 
 <br>
+
+```{r}
+
+```
 
 - Clindamycin has the **highest relative risk** of CDI among commonly used antibiotics in many epidemiologic studies
 

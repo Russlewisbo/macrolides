@@ -555,13 +555,13 @@ Russell E. Lewis
 <section id="comparing-the-three-quick-reference" class="slide level2">
 <h2>Comparing the three — Quick reference</h2>
 <p><br></p>
-<table class="caption-top" style="width:100%;">
+<table class="caption-top">
 <caption>Macrolide comparison</caption>
 <colgroup>
-<col style="width: 23%">
-<col style="width: 23%">
-<col style="width: 23%">
-<col style="width: 30%">
+<col style="width: 25%">
+<col style="width: 17%">
+<col style="width: 21%">
+<col style="width: 36%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1844,6 +1844,44 @@ Tedesco FJ. Clindamycin and colitis: A review. J Infect Dis 1977;135:S95–8.
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
