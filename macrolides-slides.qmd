@@ -94,7 +94,7 @@ The static/cidal distinction is over-emphasized in textbooks, but it does matter
 ## Three resistance mechanisms — Overview
 
 | Mechanism | Effect | Cross-resistance |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **Target site modification** (Erm methylation, ribosomal mutation) | 23S A2058 methylated/mutated | Full MLS~B~ (macrolides + lincosamides + streptogramin B) |
 | **Efflux** (Mef, Msr) | Drug pumped out of cell | Macrolides only (M phenotype) — clindamycin spared |
 | **Enzymatic inactivation** (esterases, phosphotransferases) | Drug destroyed | Variable; uncommon clinically |
@@ -182,7 +182,7 @@ Mycoplasma macrolide resistance is now \>90% in some Asian regions and approachi
 <br>
 
 | Preparation | Notes | Typical adult dose |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Base | Acid-labile; enteric-coated | 250–500 mg PO q6–12h |
 | Stearate | Acid-stable salt | Similar |
 | Ethylsuccinate | Suspension/pediatric | 400–800 mg PO q6–12h |
@@ -323,7 +323,7 @@ The classic dichotomy of time-vs-concentration-dependent killing breaks down for
 <br>
 
 | Property           | Erythromycin | Clarithromycin  | Azithromycin                |
-|--------------------|--------------|-----------------|-----------------------------|
+|----------------|----------------|----------------|------------------------|
 | Half-life          | 1.5–2 h      | 3–7 h           | 40–68 h                     |
 | Active metabolite  | No           | 14-OH (active)  | No                          |
 | CYP3A4 inhibitor   | Strong       | Strong          | Minimal                     |
@@ -791,11 +791,11 @@ This is the single most important point about clindamycin for inpatient prescrib
 
 ![](macrolides-images/cdiff_risk.png){fig-align="center"}
 
-## More theoretical than real-life? (ECCMID 2026 Late breakers)
+## More theoretical than real-life?  <br> (ECCMID 2026 Late breakers) {.smaller}
 
 - The **SNAP trial's adjunctive clindamycin domain** (5 days of clindamycin vs. no adjunctive antibiotic in *S. aureus* bacteraemia) found **no mortality benefit and a signal of possible harm** — the ICU subgroup had a 96% posterior probability of higher mortality.
 
-- **C. difficile risk was not increased:** CDI diarrhoea was low and essentially identical in both arms (**1.9% each**), reassuring given this is likely the largest-ever RCT of clindamycin — though *all-cause* diarrhoea was higher in the clindamycin arm.
+- **C. difficile risk was not increased:** CDI diarrhea was low and essentially identical in both arms (**1.9% each**), reassuring given this is likely the largest-ever RCT of clindamycin — though *all-cause* diarrhoea was higher in the clindamycin arm.
 
 - The suspected mechanism of harm is **gut-microbiome/anaerobe disruption** (loss of "colonization resistance"), not CDI specifically.
 
@@ -1050,7 +1050,7 @@ The COVID-azithromycin story is a useful real-world example of how soft evidence
 The pediatric story has shifted considerably with rising macrolide resistance — particularly Mycoplasma. The old "azithromycin solves everything in children" mindset needs adjustment for the modern resistance landscape.
 :::
 
-## Antimicrobial stewardship implications
+## Antimicrobial stewardship implications {.smaller}
 
 <br>
 
