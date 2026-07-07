@@ -206,11 +206,11 @@ The estolate form historically caused cholestatic hepatitis in adults — withdr
 - **Elimination:** primarily biliary; minimal renal — no renal-failure adjustment
 - **Hepatic dysfunction:** caution; reduce dose
 
-::: {.content-hidden when-format="typst"}
+:::: {.content-hidden when-format="typst"}
 ::: notes
 Three things to remember about erythromycin PK: short half-life, no renal adjustment, and powerful CYP3A4 interactions. The interactions list is enormous.
 :::
-:::
+::::
 
 ## Erythromycin — Adverse effects
 
