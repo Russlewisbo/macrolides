@@ -23,7 +23,7 @@ bibliography: macrolides-references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## Macrolides, Ketolides and Clindamycin {background-video="molecules.mp4" background-video-loop="true" background-video-muted="true"}
+## Macrolides, Ketolides and Clindamycin {background-video="macrolides-images/molecules.mp4" background-video-loop="true" background-video-muted="true" background-color="#b20e10" background-opacity="0.5"}
 
 <center>
 
@@ -50,7 +50,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 - Clindamycin — anaerobes, MRSA, and toxin suppression
 - Practical pearls for the consult service
 
-# Chemistry & Mechanism
+# Chemistry & Mechanism {background-color="#b20e10"}
 
 ## The Macrolide family
 
@@ -91,7 +91,7 @@ A2058 is the keystone. It's the same nucleotide modified by erm methylases and m
 The static/cidal distinction is over-emphasized in textbooks, but it does matter for endovascular infections and immunocompromised hosts. Macrolides are not endocarditis drugs.
 :::
 
-# Resistance Mechanisms
+# Resistance Mechanisms {background-color="#b20e10"}
 
 ## Three resistance mechanisms — Overview
 
@@ -177,7 +177,7 @@ The M phenotype is the "clindamycin-sparing" pattern. If a pneumococcal pharyngi
 Mycoplasma macrolide resistance is now \>90% in some Asian regions and approaching 30% in parts of Italy — relevant for empiric atypical coverage. H. pylori clarithromycin resistance is the reason quadruple therapy is now first-line in many regions instead of standard triple [@Kawai2013; @Nash1995; @Ng2002; @Meier1996].
 :::
 
-# Pharmacology
+# Pharmacology {background-color="#b20e10"}
 
 ## Erythromycin — preparations
 
@@ -339,7 +339,7 @@ The classic dichotomy of time-vs-concentration-dependent killing breaks down for
 This table explains why azithromycin replaced erythromycin in almost every outpatient indication.
 :::
 
-# Cardiac Safety
+# Cardiac Safety {background-color="#b20e10"}
 
 ## QT Prolongation — Mechanism
 
@@ -391,7 +391,7 @@ The "macrolide allergy" label gets attached very loosely in records. Most patien
 Do not use erythromycin IV in ICU patients without checking baseline QTc and electrolytes. Azithromycin is safer, but not exempt.
 :::
 
-# Spectrum & Clinical Use
+# Spectrum & Clinical Use {background-color="#b20e10"}
 
 ## Spectrum — Macrolides at a glance
 
@@ -463,7 +463,7 @@ The geographic skew matters. Italian and Southern European pneumococcal resistan
 The European/Italian epidemiology favors high-level MLS~B~ resistance — when you read US guidelines that recommend monotherapy macrolide for outpatient pneumonia, mentally adjust for our resistance landscape [@Xu2010].
 :::
 
-# Clinical Uses — Respiratory
+# Clinical Uses — Respiratory {background-color="#b20e10"}
 
 ## Community-acquired pneumonia
 
@@ -534,7 +534,7 @@ Macrolide monotherapy is the cardinal sin in MAC — resistance emerges in weeks
 This is one of the most interesting stories in antimicrobial pharmacology — a drug that works not by killing bacteria but by modulating innate immunity. Quorum sensing inhibition in Pseudomonas, decreased neutrophil chemotaxis, reduced pro-inflammatory cytokine release. Mechanism still debated [@Kudoh1998; @Albert2011].
 :::
 
-# Clinical uses — Non-Respiratory
+# Clinical uses — Non-Respiratory {background-color="#b20e10"}
 
 ## *Helicobacter pylori*
 
@@ -627,7 +627,7 @@ The syphilis story is striking — within a few years of azithromycin being prom
 Krause 2000 was the landmark NEJM trial that established atovaquone + azithromycin as equivalent to clindamycin + quinine with much better tolerance. Severe and immunocompromised cases still get the older regimen [@Krause2000; @Krause2021].
 :::
 
-# Macrolide Immunomodulation
+# Macrolide Immunomodulation {background-color="#b20e10"}
 
 ## Macrolides as immunomodulators
 
@@ -811,7 +811,7 @@ This is the single most important point about clindamycin for inpatient prescrib
   Bowen AC, Davis JS, Tong SYC, et al. Adjunctive clindamycin for treatment of *Staphylococcus aureus* bacteraemia: a randomised controlled trial within the *S. aureus* Network Adaptive Platform (SNAP). Late-breaking abstract, ESCMID Global 2026.
   :::
 
-# Clindamycin — Clinical uses
+# Clindamycin — Clinical uses {background-color="#b20e10"}
 
 ## Anaerobic infections
 
@@ -994,7 +994,7 @@ The apicoplast story is one of the more elegant in antiparasitic pharmacology �
 [@Krause2021]
 :::
 
-# Practical Pearls
+# Practical Pearls {background-color="#b20e10"}
 
 ## What you should remember — Macrolides
 
