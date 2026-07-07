@@ -12,11 +12,16 @@ format:
     transition: fade
     width: 1280
     height: 720
+  typst:
+    papersize: a4
+    margin:
+      x: 2cm
+      y: 2cm
 bibliography: macrolides-references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## Macrolides, Ketolides <br> and Clindamycin {.light-text background-color="#b20e10" background-video="macrolides-images/molecules.mp4" background-video-loop="true" background-video-muted="true" background-opacity="0.4"}
+## Macrolides, Ketolides and Clindamycin
 
 <center>
 
@@ -43,7 +48,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 - Clindamycin — anaerobes, MRSA, and toxin suppression
 - Practical pearls for the consult service
 
-# Chemistry & Mechanism {background-color="#b20e10"}
+# Chemistry & Mechanism
 
 ## The Macrolide family
 
@@ -84,12 +89,12 @@ A2058 is the keystone. It's the same nucleotide modified by erm methylases and m
 The static/cidal distinction is over-emphasized in textbooks, but it does matter for endovascular infections and immunocompromised hosts. Macrolides are not endocarditis drugs.
 :::
 
-# Resistance Mechanisms {background-color="#b20e10"}
+# Resistance Mechanisms
 
 ## Three resistance mechanisms — Overview
 
 | Mechanism | Effect | Cross-resistance |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Target site modification** (Erm methylation, ribosomal mutation) | 23S A2058 methylated/mutated | Full MLS~B~ (macrolides + lincosamides + streptogramin B) |
 | **Efflux** (Mef, Msr) | Drug pumped out of cell | Macrolides only (M phenotype) — clindamycin spared |
 | **Enzymatic inactivation** (esterases, phosphotransferases) | Drug destroyed | Variable; uncommon clinically |
@@ -100,7 +105,9 @@ The static/cidal distinction is over-emphasized in textbooks, but it does matter
 Three mechanisms — but the one that haunts the consult service is target-site methylation, because of MLS~B~ cross-resistance. The efflux phenotype is more common in pneumococci and spares clindamycin. Enzymatic destruction is rarely clinically important except in some Enterobacterales [@Mao1968; @Ackermann2003].
 :::
 
-## Target methylation — the *erm* Genes![](images/clipboard-3998094430.png){width="700"}
+## Target methylation — the *erm* Genes
+
+![](images/clipboard-3998094430.png){width="700"}
 
 <br> <br>
 
@@ -168,14 +175,14 @@ The M phenotype is the "clindamycin-sparing" pattern. If a pneumococcal pharyngi
 Mycoplasma macrolide resistance is now \>90% in some Asian regions and approaching 30% in parts of Italy — relevant for empiric atypical coverage. H. pylori clarithromycin resistance is the reason quadruple therapy is now first-line in many regions instead of standard triple [@Kawai2013; @Nash1995; @Ng2002; @Meier1996].
 :::
 
-# Pharmacology {background-color="#b20e10"}
+# Pharmacology
 
 ## Erythromycin — preparations
 
 <br>
 
 | Preparation | Notes | Typical adult dose |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Base | Acid-labile; enteric-coated | 250–500 mg PO q6–12h |
 | Stearate | Acid-stable salt | Similar |
 | Ethylsuccinate | Suspension/pediatric | 400–800 mg PO q6–12h |
@@ -199,8 +206,10 @@ The estolate form historically caused cholestatic hepatitis in adults — withdr
 - **Elimination:** primarily biliary; minimal renal — no renal-failure adjustment
 - **Hepatic dysfunction:** caution; reduce dose
 
+::: {.content-hidden when-format="typst"}
 ::: notes
 Three things to remember about erythromycin PK: short half-life, no renal adjustment, and powerful CYP3A4 interactions. The interactions list is enormous.
+:::
 :::
 
 ## Erythromycin — Adverse effects
@@ -314,7 +323,7 @@ The classic dichotomy of time-vs-concentration-dependent killing breaks down for
 <br>
 
 | Property           | Erythromycin | Clarithromycin  | Azithromycin                |
-|------------------|------------------|------------------|-------------------|
+|--------------------|--------------|-----------------|-----------------------------|
 | Half-life          | 1.5–2 h      | 3–7 h           | 40–68 h                     |
 | Active metabolite  | No           | 14-OH (active)  | No                          |
 | CYP3A4 inhibitor   | Strong       | Strong          | Minimal                     |
@@ -328,7 +337,7 @@ The classic dichotomy of time-vs-concentration-dependent killing breaks down for
 This table explains why azithromycin replaced erythromycin in almost every outpatient indication.
 :::
 
-# Cardiac Safety {background-color="#b20e10"}
+# Cardiac Safety
 
 ## QT Prolongation — Mechanism
 
@@ -380,7 +389,7 @@ The "macrolide allergy" label gets attached very loosely in records. Most patien
 Do not use erythromycin IV in ICU patients without checking baseline QTc and electrolytes. Azithromycin is safer, but not exempt.
 :::
 
-# Spectrum & Clinical Use {background-color="#b20e10"}
+# Spectrum & Clinical Use
 
 ## Spectrum — Macrolides at a glance
 
@@ -452,7 +461,7 @@ The geographic skew matters. Italian and Southern European pneumococcal resistan
 The European/Italian epidemiology favors high-level MLS~B~ resistance — when you read US guidelines that recommend monotherapy macrolide for outpatient pneumonia, mentally adjust for our resistance landscape [@Xu2010].
 :::
 
-# Clinical Uses — Respiratory {background-color="#b20e10"}
+# Clinical Uses — Respiratory
 
 ## Community-acquired pneumonia
 
@@ -523,7 +532,7 @@ Macrolide monotherapy is the cardinal sin in MAC — resistance emerges in weeks
 This is one of the most interesting stories in antimicrobial pharmacology — a drug that works not by killing bacteria but by modulating innate immunity. Quorum sensing inhibition in Pseudomonas, decreased neutrophil chemotaxis, reduced pro-inflammatory cytokine release. Mechanism still debated [@Kudoh1998; @Albert2011].
 :::
 
-# Clinical uses — Non-Respiratory {background-color="#b20e10"}
+# Clinical uses — Non-Respiratory
 
 ## *Helicobacter pylori*
 
@@ -616,7 +625,7 @@ The syphilis story is striking — within a few years of azithromycin being prom
 Krause 2000 was the landmark NEJM trial that established atovaquone + azithromycin as equivalent to clindamycin + quinine with much better tolerance. Severe and immunocompromised cases still get the older regimen [@Krause2000; @Krause2021].
 :::
 
-# Macrolide Immunomodulation {background-color="#b20e10"}
+# Macrolide Immunomodulation
 
 ## Macrolides as immunomodulators
 
@@ -628,7 +637,7 @@ Krause 2000 was the landmark NEJM trial that established atovaquone + azithromyc
 The mechanism story is messy — multiple proposed pathways, none singularly proven. But the clinical effect in DPB, CF, and COPD is real and reproducible. It's the leading edge of the "antibiotics as immunomodulators" field [@Mikasa1992; @Keicho2002].
 :::
 
-# Ketolides {background-color="#b20e10"}
+# Ketolides
 
 ## Ketolides — Designed to overcome MLS~B~
 
@@ -701,7 +710,7 @@ Lefamulin isn't a macrolide, but mention it because it occupies the niche solith
 Nafithromycin is one to watch — particularly for the Indian market, where it may be approved before any Western regulator considers it. The class is unlikely to return to wider use without a clearly safer molecule.
 :::
 
-# Clindamycin {background-color="#b20e10"}
+# Clindamycin
 
 ## Clindamycin — Origins
 
@@ -782,9 +791,21 @@ This is the single most important point about clindamycin for inpatient prescrib
 
 ![](macrolides-images/cdiff_risk.png){fig-align="center"}
 
-## More theoretical than real-life?
+## More theoretical than real-life? (ECCMID 2026 Late breakers)
 
-# Clindamycin — Clinical uses {background-color="#b20e10"}
+- The **SNAP trial's adjunctive clindamycin domain** (5 days of clindamycin vs. no adjunctive antibiotic in *S. aureus* bacteraemia) found **no mortality benefit and a signal of possible harm** — the ICU subgroup had a 96% posterior probability of higher mortality.
+
+- **C. difficile risk was not increased:** CDI diarrhoea was low and essentially identical in both arms (**1.9% each**), reassuring given this is likely the largest-ever RCT of clindamycin — though *all-cause* diarrhoea was higher in the clindamycin arm.
+
+- The suspected mechanism of harm is **gut-microbiome/anaerobe disruption** (loss of "colonization resistance"), not CDI specifically.
+
+  - The **anti-toxin rationale** (clindamycin inhibits ribosomal protein synthesis → less exotoxin production) was mechanistic only; **outcome by clindamycin susceptibility/MIC was pre-specified but not yet analyzed**, and the presenter expected it wouldn't change the result.
+
+  ::: aside
+  Bowen AC, Davis JS, Tong SYC, et al. Adjunctive clindamycin for treatment of *Staphylococcus aureus* bacteraemia: a randomised controlled trial within the *S. aureus* Network Adaptive Platform (SNAP). Late-breaking abstract, ESCMID Global 2026.
+  :::
+
+# Clindamycin — Clinical uses
 
 ## Anaerobic infections
 
@@ -967,7 +988,7 @@ The apicoplast story is one of the more elegant in antiparasitic pharmacology �
 [@Krause2021]
 :::
 
-# Practical Pearls {background-color="#b20e10"}
+# Practical Pearls
 
 ## What you should remember — Macrolides
 
@@ -1045,7 +1066,5 @@ The pediatric story has shifted considerably with rising macrolide resistance �
 ::: aside
 The most direct interventions: switch from azithro to doxy for urogenital and rectal chlamydia, and don't reach for azithro for self-limited URIs. Both have measurable downstream effects on community resistance.
 :::
-
-## 
 
 ## References
