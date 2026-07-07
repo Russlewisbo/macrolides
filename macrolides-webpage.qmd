@@ -15,9 +15,6 @@ bibliography: macrolides-references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-::: {.callout-note}
-This webpage is the written companion to the lecture *Macrolides, Ketolides, and Clindamycin*. It expands the material on the slides, includes the chapter's reference tables in full, and provides a complete bibliography rendered through the *Diagnostic Microbiology and Infectious Disease* CSL. Adapted from Nesbitt, Pritchard, and Aronoff (Mandell, Ch. 28).
-:::
 
 # Introduction
 
@@ -28,6 +25,8 @@ This companion document is organized like the lecture: chemistry and mechanism f
 # Chemistry
 
 ## Macrolide Structure
+
+![Erythromycin base](macrolides-images/erythromycin_base.png){fig-align="center" width="500"}
 
 All macrolides share a **macrocyclic lactone ring** (the macrolactone) to which one or two sugars are appended. The clinically important rings are 14-, 15-, and 16-membered:
 
@@ -47,6 +46,8 @@ Lincomycin and clindamycin do not contain a macrolactone. They consist of an ami
 
 # Mechanism of Action
 
+![Mechanism of action — binding site on the 50S subunit](macrolides-images/macrolide_MOA.png){fig-align="center" width="600"}
+
 Macrolides, ketolides, and lincosamides bind the **50S ribosomal subunit**, specifically the **peptidyl transferase center** of 23S rRNA in domain V. The principal contact residue is **adenine 2058** (*E. coli* numbering); ketolides additionally contact A752 in domain II. Binding blocks the nascent peptide exit tunnel, leading to premature drop-off of peptidyl-tRNA and inhibition of peptide bond formation [@Mao1968].
 
 The drugs are **predominantly bacteriostatic** at clinically achievable concentrations. Bactericidal activity emerges only at high drug-to-bug ratios against highly susceptible organisms (notably *S. pyogenes*). The static/cidal distinction has clinical relevance: macrolides are not appropriate as monotherapy for endocarditis, severe neutropenic infection, or bacterial meningitis.
@@ -55,7 +56,7 @@ The drugs are **predominantly bacteriostatic** at clinically achievable concentr
 
 Three mechanisms account for nearly all clinically relevant macrolide resistance:
 
-## Target site modification
+## Target Site Modification
 
 The dominant mechanism. ***Erm*** (erythromycin ribosome methylase) gene products mono- or di-methylate the N6 of adenine 2058 of 23S rRNA, preventing drug binding. Because the methylation site is shared, *erm* expression confers full **MLS~B~ cross-resistance** — to **m**acrolides, **l**incosamides, and **s**treptogramin **B** [@Ackermann2003].
 
@@ -71,13 +72,17 @@ The dominant mechanism. ***Erm*** (erythromycin ribosome methylase) gene product
 
 : Major *erm* genes [@Ackermann2003] {#tbl-erm}
 
+![*erm*-mediated target methylation](images/clipboard-3998094430.png){fig-align="center" width="600"}
+
 Ribosomal point mutations at **A2058** or **A2059** of 23S rRNA produce similar resistance without methylation. Such mutations are particularly common in organisms with few rRNA operons (1–2 copies), where a single mutational event affects most ribosomes: *M. pneumoniae*, *M. avium*, *N. gonorrhoeae*, *H. pylori*, *Treponema pallidum* [@Kawai2013; @Nash1995; @Ng2002; @Meier1996].
 
-## Constitutive vs. inducible expression
+## Constitutive vs. Inducible Expression
 
 *Erm* expression may be **constitutive** (always on; the organism reads as resistant to both erythromycin and clindamycin on susceptibility testing) or **inducible** (transcribed only when a macrolide is present; the organism reads as erythromycin-resistant and clindamycin-susceptible). Inducible MLS~B~ is the clinical trap: clindamycin therapy *itself* can induce *erm* expression mid-treatment and produce emergent resistance with clinical failure [@Siberry2003].
 
-### The D-test
+### The D-Test
+
+![The D-test: flattening of the clindamycin zone facing the erythromycin disk](macrolides-images/Dtest.png){fig-align="center" width="400"}
 
 The **D-test** is a disk-diffusion screen for inducible clindamycin resistance. An erythromycin disk is placed adjacent to a clindamycin disk on the AST plate; if *erm* is inducible, the erythromycin diffuses into the area around the clindamycin disk and induces methylation in the bacteria there. The clindamycin zone of inhibition is flattened on the side facing the erythromycin disk, producing a characteristic **"D" shape**. A D-test positive isolate should be reported as **clindamycin-resistant**, regardless of the broth-microdilution MIC [@Siberry2003; @LaPlante2008].
 
@@ -92,7 +97,7 @@ Active efflux pumps remove macrolides from the bacterial cytoplasm faster than t
 
 The **M phenotype** (erythromycin-resistant, clindamycin-susceptible by phenotype, D-test negative) is the hallmark of efflux-mediated resistance. Efflux generally produces lower-level resistance than MLS~B~ — high inocula can overwhelm the pump.
 
-## Enzymatic inactivation
+## Enzymatic Inactivation
 
 Esterases and phosphotransferases that destroy macrolides have been described in Enterobacterales but are uncommon clinical drivers of resistance in Gram-positive infection.
 
@@ -167,6 +172,8 @@ The tissue–plasma disparity also explains why azithromycin is **unreliable for
 
 # Cardiac Safety
 
+![QT prolongation mechanism](macrolides-images/cardiac.png){fig-align="center" width="600"}
+
 The mechanism is blockade of the **hERG (IKr) potassium channel** with consequent QTc prolongation and risk of torsades de pointes. Risk is amplified by:
 
 - IV administration or rapid infusion
@@ -199,6 +206,8 @@ The macrolide-resistance landscape varies sharply by region. In broad strokes:
 
 For invasive pneumococcal disease in Italy, **macrolide monotherapy is inadequate** as empiric coverage; the ATS/IDSA guideline threshold of < 25% resistance is regularly exceeded [@Xu2010].
 
+Macrolide resistance is also rising in ***Mycoplasma genitalium***, now exceeding 50% in many cohorts of men who have sex with men; moxifloxacin is the principal alternative when extended-course azithromycin fails.
+
 # Clinical Uses — Macrolides
 
 ## Community-Acquired Pneumonia
@@ -222,6 +231,8 @@ Macrolide-based three-drug regimens (clarithromycin or azithromycin + ethambutol
 In the pre–combination antiretroviral era, weekly azithromycin 1200 mg was widely used for primary MAC prophylaxis in AIDS patients with CD4 < 50; the indication is largely obsolete since modern ART.
 
 ## Immunomodulation and Chronic Airway Disease
+
+![Proposed mechanisms of macrolide immunomodulation](macrolides-images/immunomodulation.png){fig-align="center" width="700"}
 
 The discovery of macrolide immunomodulation came from a single Japanese cohort: low-dose erythromycin transformed diffuse panbronchiolitis from a near-uniformly fatal disease into a manageable chronic illness [@Kudoh1998]. The mechanism is incompletely characterized but includes reduced neutrophil chemotaxis, decreased pro-inflammatory cytokine release, enhanced efferocytosis of apoptotic cells, and interference with *Pseudomonas aeruginosa* quorum sensing [@Mikasa1992; @Keicho2002].
 
@@ -252,7 +263,7 @@ The **MORDOR trial** [@Keenan2018; @Keenan2019] extended the concept to childhoo
 
 ## *Neisseria gonorrhoeae*
 
-Macrolide use in gonorrhea has effectively ended. Widespread resistance (driven by 23S rRNA mutations and *mtr* efflux upregulation [@Ng2002]) led the US CDC in 2020 to drop azithromycin from dual therapy. Current recommendation is **ceftriaxone 500 mg IM as single agent**. The European IUSTI guideline still pairs ceftriaxone with azithromycin 2 g but is under active revision [@Ref221]. Solithromycin demonstrated efficacy in a phase 3 trial [@Fernandes2019] but was never approved.
+Macrolide use in gonorrhea has effectively ended. Widespread resistance (driven by 23S rRNA mutations and *mtr* efflux upregulation [@Ng2002]) led the US CDC in its 2021 update to drop azithromycin from dual therapy. Current recommendation is **ceftriaxone 500 mg IM as single agent**. The European IUSTI guideline still pairs ceftriaxone with azithromycin 2 g but is under active revision [@Ref221]. Solithromycin demonstrated efficacy in a phase 3 trial [@Fernandes2019] but was never approved.
 
 ## Toxoplasmosis
 
@@ -265,6 +276,10 @@ Macrolide use in gonorrhea has effectively ended. Widespread resistance (driven 
 ## Syphilis — Lesson Learned
 
 Single-dose oral azithromycin (2 g) was an attractive penicillin-alternative for syphilis until **treatment failures emerged rapidly** in San Francisco, Ireland, and elsewhere in the 2000s. Resistance is driven by the **A2058G** mutation in 23S rRNA of *T. pallidum*. Azithromycin is **no longer recommended** for syphilis; penicillin desensitization is preferred for allergy.
+
+## Macrolides and COVID-19 — A Cautionary Tale
+
+In early 2020, azithromycin (often paired with hydroxychloroquine) was widely promoted for COVID-19 on the basis of small open-label studies and a mechanistic rationale combining anti-inflammatory and putative antiviral effects. Two large randomized trials subsequently found no benefit: the **RECOVERY trial** (>7,700 hospitalized patients) showed no mortality benefit, and the **PRINCIPLE trial** found no benefit in early outpatient disease. The net effect was a period of azithromycin overprescribing that measurably increased macrolide resistance in some regions — a reminder that enthusiasm without RCT data can drive unintended antimicrobial selection pressure.
 
 # Pharmacology — Ketolides
 
@@ -310,9 +325,17 @@ The same MLS~B~ mechanisms that affect macrolides apply to clindamycin, plus the
 
 ## Adverse Effects — *C. difficile*
 
+![Why clindamycin is uniquely effective at selecting for *C. difficile*](macrolides-images/cdiff_risk.png){fig-align="center" width="700"}
+
 Clindamycin has the **highest relative risk for *C. difficile* infection** of any commonly prescribed antibiotic in many epidemiologic studies, attributable to its profound impact on colonic anaerobic flora [@Ref444; @Gantz1979; @Meadowcroft1998]. The risk persists for **weeks to months** after exposure and is observed even with topical (vaginal cream) preparations.
 
 The clinical implication is straightforward: do not reach for clindamycin reflexively when a narrower or safer alternative will work, particularly in elderly, hospitalized, or recently antibiotic-exposed patients.
+
+### The SNAP Trial — Questioning the Toxin-Suppression Rationale (ECCMID 2026)
+
+The adjunctive clindamycin domain of the **SNAP trial** (*S. aureus* Network Adaptive Platform) randomized patients with *S. aureus* bacteremia to 5 days of adjunctive clindamycin versus no adjunctive antibiotic. It found **no mortality benefit and a signal of possible harm** — the ICU subgroup showed a 96% posterior probability of higher mortality with clindamycin. Reassuringly, CDI was not increased (1.9% in each arm), although *all-cause* diarrhea was higher with clindamycin; the presumed mechanism of harm is disruption of gut-microbiome colonization resistance rather than CDI specifically. Outcomes stratified by clindamycin susceptibility/MIC were pre-specified but not yet reported at the time of presentation.
+
+This is the largest randomized evaluation of adjunctive clindamycin to date and is a caution against extrapolating the toxin-suppression rationale (established for invasive GAS, see below) to *S. aureus* bacteremia without direct trial evidence.
 
 # Clinical Uses — Clindamycin
 
@@ -368,6 +391,16 @@ Topical clindamycin 2% cream or oral clindamycin 300 mg BID × 7 days are altern
 
 For severe babesiosis or in immunocompromised hosts, **clindamycin + quinine IV** is the historical regimen, though IDSA 2020 also accepts atovaquone + azithromycin as initial therapy given improved tolerability [@Krause2021]. Exchange transfusion is indicated for parasitemia > 10% or end-organ dysfunction.
 
+# Pediatric Considerations
+
+Several of the class-specific caveats above are especially consequential in children:
+
+- **Azithromycin** is preferred in infants and young children — better tolerated, single daily dose.
+- **Erythromycin estolate is avoided in infants** — hypertrophic pyloric stenosis risk in the first 6 weeks of life.
+- For pediatric skin and soft-tissue infection, clindamycin is a workhorse oral option, though palatability is poor and flavored suspensions help.
+- Clarithromycin is dosed pediatrically for MAC, *H. pylori*, and pertussis.
+- Macrolide-resistant *M. pneumoniae* is now common in pediatric outbreaks; consider doxycycline or a fluoroquinolone for non-responders over 8 years old.
+
 # Antimicrobial Stewardship Considerations
 
 Macrolides are among the most prescribed antibiotics in ambulatory care worldwide. Heavy use drives macrolide resistance in *S. pneumoniae*, group A streptococci, *H. pylori*, *N. gonorrhoeae*, *M. genitalium*, and *M. pneumoniae*. Reductions in macrolide pressure at the population level have been followed by reductions in pneumococcal macrolide resistance in Finland, Belgium, and US ambulatory settings — demonstrating that the resistance phenotype is reversible if drug pressure is removed.
@@ -383,7 +416,7 @@ Practical stewardship priorities:
 # Key Teaching Points
 
 ::: {.callout-tip}
-## For the consult service
+## For the Consult Service
 - **A2058 is the keystone** — every clinically important macrolide-resistance mechanism converges on this 23S rRNA residue.
 - **MLS~B~ cross-resistance** means *erm*-mediated methylation knocks out clindamycin as well.
 - **D-test before clindamycin** for *S. aureus* and group A strep — inducible resistance is a clinical trap.
@@ -392,9 +425,9 @@ Practical stewardship priorities:
 - **Eagle effect** justifies adjunctive clindamycin in invasive GAS and *C. perfringens* — penicillin alone is insufficient against stationary-phase organisms.
 - **Doxycycline is now first-line** for urogenital and rectal chlamydia; azithromycin is the alternative.
 - **Don't reach for clindamycin reflexively** — CDI risk is real, durable, and may make a "safer" choice (cefazolin, doxycycline, narrow oral β-lactam) preferable.
+- **The SNAP trial** found no mortality benefit — and a possible harm signal — from adjunctive clindamycin in *S. aureus* bacteremia; the toxin-suppression rationale established for invasive GAS should not be assumed to extend to other indications without direct evidence.
+- **Soft evidence can drive real prescribing surges** — the COVID-19 azithromycin episode (settled negative by RECOVERY and PRINCIPLE) is a cautionary example.
 :::
 
 # References {.unnumbered}
 
-::: {#refs}
-:::

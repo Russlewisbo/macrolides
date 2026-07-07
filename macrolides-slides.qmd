@@ -12,6 +12,8 @@ format:
     transition: fade
     width: 1280
     height: 720
+    menu:
+      side: left
     title-slide-attributes:
       data-background-color: "#b20e10"
   typst:
@@ -96,7 +98,7 @@ The static/cidal distinction is over-emphasized in textbooks, but it does matter
 ## Three resistance mechanisms — Overview
 
 | Mechanism | Effect | Cross-resistance |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **Target site modification** (Erm methylation, ribosomal mutation) | 23S A2058 methylated/mutated | Full MLS~B~ (macrolides + lincosamides + streptogramin B) |
 | **Efflux** (Mef, Msr) | Drug pumped out of cell | Macrolides only (M phenotype) — clindamycin spared |
 | **Enzymatic inactivation** (esterases, phosphotransferases) | Drug destroyed | Variable; uncommon clinically |
@@ -109,7 +111,7 @@ Three mechanisms — but the one that haunts the consult service is target-site 
 
 ## Target methylation — the *erm* Genes
 
-![](images/clipboard-3998094430.png){width="700"}
+![](images/clipboard-3998094430.png){fig-align="center" width="700"}
 
 <br> <br>
 
@@ -184,7 +186,7 @@ Mycoplasma macrolide resistance is now \>90% in some Asian regions and approachi
 <br>
 
 | Preparation | Notes | Typical adult dose |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Base | Acid-labile; enteric-coated | 250–500 mg PO q6–12h |
 | Stearate | Acid-stable salt | Similar |
 | Ethylsuccinate | Suspension/pediatric | 400–800 mg PO q6–12h |
@@ -325,7 +327,7 @@ The classic dichotomy of time-vs-concentration-dependent killing breaks down for
 <br>
 
 | Property           | Erythromycin | Clarithromycin  | Azithromycin                |
-|--------------------|--------------|-----------------|-----------------------------|
+|-----------------|-----------------|-----------------|----------------------|
 | Half-life          | 1.5–2 h      | 3–7 h           | 40–68 h                     |
 | Active metabolite  | No           | 14-OH (active)  | No                          |
 | CYP3A4 inhibitor   | Strong       | Strong          | Minimal                     |
@@ -631,15 +633,15 @@ Krause 2000 was the landmark NEJM trial that established atovaquone + azithromyc
 
 ## Macrolides as immunomodulators
 
-<br>
-
 ![](macrolides-images/immunomodulation.png){fig-align="center" width="800"}
+
+<br>
 
 ::: aside
 The mechanism story is messy — multiple proposed pathways, none singularly proven. But the clinical effect in DPB, CF, and COPD is real and reproducible. It's the leading edge of the "antibiotics as immunomodulators" field [@Mikasa1992; @Keicho2002].
 :::
 
-# Ketolides
+# Ketolides {background-color="#b20e10"}
 
 ## Ketolides — Designed to overcome MLS~B~
 
@@ -712,7 +714,7 @@ Lefamulin isn't a macrolide, but mention it because it occupies the niche solith
 Nafithromycin is one to watch — particularly for the Indian market, where it may be approved before any Western regulator considers it. The class is unlikely to return to wider use without a clearly safer molecule.
 :::
 
-# Clindamycin
+# Clindamycin {background-color="#b20e10"}
 
 ## Clindamycin — Origins
 
@@ -755,7 +757,7 @@ The 90% oral bioavailability is critical clinically — when a patient is improv
 [@Ackermann2003]
 :::
 
-## Clindamycin — Resistance Concerns
+## Clindamycin — Resistance concerns
 
 <br>
 
@@ -795,7 +797,7 @@ This is the single most important point about clindamycin for inpatient prescrib
 
 ## Why is clindamycin uniquely good at selecting C. difficile?
 
-![](macrolides-images/cdiff_risk.png){fig-align="center"}
+![](macrolides-images/cdiff_risk.png){fig-align="center" width="800"}
 
 ## More theoretical than real-life? <br> (ECCMID 2026 Late breakers) {.smaller}
 
