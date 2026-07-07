@@ -12,6 +12,8 @@ format:
     transition: fade
     width: 1280
     height: 720
+    title-slide-attributes:
+      data-background-color: "#b20e10"
   typst:
     papersize: a4
     margin:
@@ -21,7 +23,7 @@ bibliography: macrolides-references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## Macrolides, Ketolides and Clindamycin
+## Macrolides, Ketolides and Clindamycin {background-video="molecules.mp4" background-video-loop="true" background-video-muted="true"}
 
 <center>
 
@@ -323,7 +325,7 @@ The classic dichotomy of time-vs-concentration-dependent killing breaks down for
 <br>
 
 | Property           | Erythromycin | Clarithromycin  | Azithromycin                |
-|----------------|----------------|----------------|------------------------|
+|-----------------|-----------------|-----------------|----------------------|
 | Half-life          | 1.5–2 h      | 3–7 h           | 40–68 h                     |
 | Active metabolite  | No           | 14-OH (active)  | No                          |
 | CYP3A4 inhibitor   | Strong       | Strong          | Minimal                     |
@@ -791,7 +793,7 @@ This is the single most important point about clindamycin for inpatient prescrib
 
 ![](macrolides-images/cdiff_risk.png){fig-align="center"}
 
-## More theoretical than real-life?  <br> (ECCMID 2026 Late breakers) {.smaller}
+## More theoretical than real-life? <br> (ECCMID 2026 Late breakers) {.smaller}
 
 - The **SNAP trial's adjunctive clindamycin domain** (5 days of clindamycin vs. no adjunctive antibiotic in *S. aureus* bacteraemia) found **no mortality benefit and a signal of possible harm** — the ICU subgroup had a 96% posterior probability of higher mortality.
 
