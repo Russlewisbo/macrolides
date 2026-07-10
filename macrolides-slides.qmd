@@ -25,7 +25,7 @@ bibliography: macrolides-references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## Macrolides, Ketolides and Clindamycin {background-video="macrolides-images/molecules.mp4" background-video-loop="true" background-video-muted="true" background-color="#b20e10" background-opacity="0.5"}
+## Macrolides, Ketolides and Clindamycin {background-video="macrolides-images/agar.mp4" background-video-loop="true" background-video-muted="true" background-color="#b20e10" background-opacity="0.5"}
 
 <center>
 
