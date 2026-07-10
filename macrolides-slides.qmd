@@ -867,9 +867,7 @@ For a typical community-acquired lung abscess, clindamycin 600 mg IV q8h or 450 
 The Eagle effect is the mechanistic justification for adjunctive clindamycin in invasive GAS. Penicillin is bactericidal only against actively dividing organisms — in a fulminant infection most bugs are in stationary phase and penicillin loses its punch.
 :::
 
-## Necrotizing fasciitis and invasive GAS
-
-<br>
+## Necrotizing fasciitis and invasive GAS 
 
 - **Adjunctive clindamycin** added to penicillin (or carbapenem) for invasive group A streptococcal infection
 - Mechanism — three independent benefits:
@@ -877,16 +875,74 @@ The Eagle effect is the mechanistic justification for adjunctive clindamycin in 
   2.  **Eagle effect mitigation** — clindamycin not affected by stationary-phase bacterial density
   3.  **Anti-inflammatory** — reduces cytokine release
 - Stevens 2007: dramatic reduction in toxin gene expression by clindamycin in MSSA and GAS in vitro
-- IDSA SSTI guideline: add clindamycin for invasive GAS or staphylococcal TSS
+- IDSA SSTI guideline: add clindamycin for invasive GAS or staphylococcal TSS [@Stevens2014]
 
 
 ::: aside
 Penicillin alone is theoretically sufficient to kill *S. pyogenes*, but in fulminant disease the bacteria are not actively growing (stationary phase) — penicillin loses efficacy ("Eagle effect"), and we need a protein synthesis inhibitor to shut down toxin production *and* the cytokine storm [@Stevens2007; @Stevens1987b].
 :::
 
-## Streptococcal and staphylococcal TSS
+## Clindamycin dosing — how much is enough? 
 
 <br>
+
+- **Standard adult dosing:** 150–450 mg PO q6h; 600–900 mg IV q6–8h; no renal adjustment
+- **Toxin-mediated disease (invasive GAS, TSS, nec fasc):** guidelines default to the **high end — 900 mg IV q8h** — added to a β-lactam
+- **The debate:** in vitro, toxin suppression occurs at **sub-inhibitory concentrations**, yet uncertainty over that effect is precisely what has prompted high-dose use — no head-to-head human trial resolves whether the highest doses add benefit [@Babiker2021; @CortesPenfield2023]
+- **Tolerability drives the ceiling:** GI intolerance (diarrhoea, nausea) is **dose-related**, which practically caps oral dosing near 450 mg q6h and makes higher IV regimens less well tolerated
+- **CDI and all-cause diarrhoea risk** rise with cumulative dose and duration — a reason not to reflexively pick the highest dose or extend therapy longer than needed
+
+::: aside
+The pragmatic compromise: use high-dose IV clindamycin for the toxin-suppression indications where the mechanistic rationale is strongest, but keep the course short (typically until clinically stable) and step down or stop as toxin drive resolves [@Townsend1987; @Stevens2007].
+:::
+
+## Clindamycin dosing — children vs adults 
+
+<br>
+
+::::: columns
+::: {.column width="50%"}
+**Adults (fixed dosing)**
+
+- PO: 150–450 mg q6h
+- IV: 600–900 mg q8h
+- Toxin-mediated disease: 900 mg IV q8h
+- No renal adjustment
+:::
+
+::: {.column width="50%"}
+**Children (weight-based)**
+
+- PO: 10–30 mg/kg/day divided q6–8h
+- IV: 25–40 mg/kg/day divided q6–8h
+- Invasive GAS / TSS: **high end, 40 mg/kg/day IV** (÷ q8h), added to a β-lactam
+- Cap at the adult dose; not to exceed 2.7 g/day IV
+:::
+:::::
+
+- **Why weight-based matters:** paediatric clearance per kg exceeds adults', so mg/kg dosing—rather than fixed adult regimens—is needed to reach toxin-suppressing exposures
+- **Evidence gap is wider in children:** iGAS is rare and paediatric mortality low (2–10%), so most support is **extrapolated from adult data** rather than paediatric trials
+
+::: aside
+Paediatric iGAS guidance leans heavily on adult and in vitro data; the rarity of severe disease in children means the high-dose adjunctive rationale is inferred rather than directly demonstrated [@Babiker2021].
+:::
+
+## Is linezolid a viable adjunctive alternative? 
+
+
+- **Why ask:** rising clindamycin resistance in GAS and its CDI/GI burden have pushed interest toward linezolid, which also inhibits ribosomal protein synthesis and suppresses toxin production
+- **Best available evidence:** a **target-trial-emulation** cohort across 195 US hospitals (2016–2021) compared adjunctive **linezolid vs clindamycin** in β-lactam-treated invasive GAS
+- **Result:** linezolid was **non-inferior** for in-hospital mortality — risk difference −0.5% (95% CI −5% to 4%), within the pre-specified 5% margin
+- ***C. difficile*** infection and length of stay did **not differ** significantly between the two adjuncts
+- **Caveat:** observational (not randomised) — residual confounding remains, but this is the largest comparative dataset to date
+
+<br> 
+
+::: aside
+This is a retrospective emulation, not an RCT, so it informs rather than settles the choice; still, non-inferiority plus a cleaner resistance and tolerability profile makes linezolid an increasingly reasonable adjunct where clindamycin is contraindicated or the isolate is resistant [@Babiker2025; @CortesPenfield2023].
+:::
+
+## Streptococcal and staphylococcal TSS
 
 - **Streptococcal toxic shock syndrome** (M protein-mediated, superantigen): clindamycin + β-lactam mandatory
 - **Staphylococcal TSS** (TSST-1, enterotoxin-mediated): clindamycin + β-lactam (oxacillin for MSSA; vancomycin or linezolid + clindamycin for MRSA)
