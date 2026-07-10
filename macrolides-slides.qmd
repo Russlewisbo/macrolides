@@ -927,8 +927,8 @@ The pragmatic compromise: use high-dose IV clindamycin for the toxin-suppression
 Paediatric iGAS guidance leans heavily on adult and in vitro data; the rarity of severe disease in children means the high-dose adjunctive rationale is inferred rather than directly demonstrated [@Babiker2021].
 :::
 
-## Is linezolid a viable adjunctive alternative? 
-
+## Is linezolid a viable adj
+<br>
 
 - **Why ask:** rising clindamycin resistance in GAS and its CDI/GI burden have pushed interest toward linezolid, which also inhibits ribosomal protein synthesis and suppresses toxin production
 - **Best available evidence:** a **target-trial-emulation** cohort across 195 US hospitals (2016–2021) compared adjunctive **linezolid vs clindamycin** in β-lactam-treated invasive GAS
@@ -943,6 +943,7 @@ This is a retrospective emulation, not an RCT, so it informs rather than settles
 :::
 
 ## Streptococcal and staphylococcal TSS
+<br>
 
 - **Streptococcal toxic shock syndrome** (M protein-mediated, superantigen): clindamycin + β-lactam mandatory
 - **Staphylococcal TSS** (TSST-1, enterotoxin-mediated): clindamycin + β-lactam (oxacillin for MSSA; vancomycin or linezolid + clindamycin for MRSA)

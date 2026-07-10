@@ -361,7 +361,30 @@ The adjunctive role of clindamycin in necrotizing fasciitis and streptococcal to
 For these reasons, add clindamycin to penicillin (or to vancomycin/linezolid + β-lactam in staphylococcal TSS) at the time of diagnosis — do not wait for susceptibilities.
 :::
 
-The 2014 IDSA SSTI guideline endorses adjunctive clindamycin for invasive GAS and for staphylococcal TSS.
+The 2014 IDSA SSTI guideline endorses adjunctive clindamycin for invasive GAS and for staphylococcal TSS [@Stevens2014].
+
+## Clindamycin Dosing — How Much Is Enough?
+
+Standard adult dosing is 150–450 mg PO q6h or 600–900 mg IV q6–8h, with no renal adjustment. For toxin-mediated disease (invasive GAS, TSS, necrotizing fasciitis), guidelines default to the **high end — 900 mg IV q8h** — added to a β-lactam.
+
+The rationale for high-dose adjunctive therapy is paradoxical. In vitro, toxin suppression occurs at **sub-inhibitory concentrations**, yet the very uncertainty over that effect is what has driven high-dose use — no head-to-head human trial resolves whether the highest doses add benefit [@Babiker2021; @CortesPenfield2023]. Practically, tolerability sets the ceiling: dose-related gastrointestinal intolerance (diarrhea, nausea) caps oral dosing near 450 mg q6h and makes higher IV regimens less well tolerated. Because CDI and all-cause diarrhea risk rise with cumulative dose and duration, the pragmatic compromise is to reserve high-dose IV clindamycin for the toxin-suppression indications where the mechanistic rationale is strongest, keep the course short (typically until clinically stable), and step down or stop as toxin drive resolves [@Townsend1987; @Stevens2007].
+
+Pediatric dosing is weight-based rather than fixed, because clearance per kilogram exceeds that of adults:
+
+| Population | Oral | IV | Toxin-mediated disease |
+|------------|------|-----|------------------------|
+| **Adults** (fixed) | 150–450 mg q6h | 600–900 mg q8h | 900 mg IV q8h |
+| **Children** (weight-based) | 10–30 mg/kg/day ÷ q6–8h | 25–40 mg/kg/day ÷ q6–8h | 40 mg/kg/day IV ÷ q8h (cap at adult dose, ≤ 2.7 g/day) |
+
+: Clindamycin dosing — adults vs. children {#tbl-clinda-dosing}
+
+The evidence gap is wider in children: invasive GAS is rare and pediatric mortality is low (2–10%), so most support for the high-dose adjunctive approach is **extrapolated from adult and in vitro data** rather than derived from pediatric trials [@Babiker2021].
+
+## Linezolid as an Alternative Adjunct
+
+Rising clindamycin resistance in GAS, together with its CDI and gastrointestinal burden, has prompted interest in linezolid — which also inhibits ribosomal protein synthesis and suppresses toxin production — as an alternative adjunct. The best available evidence is a **target-trial-emulation** cohort across 195 US hospitals (2016–2021) comparing adjunctive **linezolid versus clindamycin** in β-lactam-treated invasive GAS. Linezolid was **non-inferior** for in-hospital mortality (risk difference −0.5%, 95% CI −5% to 4%, within the pre-specified 5% margin), and *C. difficile* infection and length of stay did not differ significantly between the two adjuncts [@Babiker2025; @CortesPenfield2023].
+
+This is observational rather than randomized, so residual confounding remains and the analysis informs rather than settles the choice. Still, non-inferiority combined with a cleaner resistance and tolerability profile makes linezolid an increasingly reasonable adjunct where clindamycin is contraindicated or the isolate is resistant.
 
 ## Other Toxin-Mediated Infections
 
@@ -426,6 +449,7 @@ Practical stewardship priorities:
 - **Doxycycline is now first-line** for urogenital and rectal chlamydia; azithromycin is the alternative.
 - **Don't reach for clindamycin reflexively** — CDI risk is real, durable, and may make a "safer" choice (cefazolin, doxycycline, narrow oral β-lactam) preferable.
 - **The SNAP trial** found no mortality benefit — and a possible harm signal — from adjunctive clindamycin in *S. aureus* bacteremia; the toxin-suppression rationale established for invasive GAS should not be assumed to extend to other indications without direct evidence.
+- **Linezolid is an increasingly reasonable adjunct** in invasive GAS — a large target-trial-emulation found it non-inferior to clindamycin for mortality, with a cleaner resistance and tolerability profile, making it a sensible choice where clindamycin is contraindicated or the isolate is resistant.
 - **Soft evidence can drive real prescribing surges** — the COVID-19 azithromycin episode (settled negative by RECOVERY and PRINCIPLE) is a cautionary example.
 :::
 
