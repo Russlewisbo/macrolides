@@ -76,7 +76,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 ![](macrolides-images/macrolide_MOA.png){fig-align="center" width="700"}
 
 ::: aside
-A2058 is the keystone. It's the same nucleotide modified by erm methylases and mutated in azithromycin-resistant Mycoplasma and gonorrhea. Knowing where the drug sits on the ribosome is what lets you predict every resistance mechanism we're about to discuss [@Mao1968].
+A2058 is the keystone. It's the same nucleotide modified by erm methylases and mutated in azithromycin-resistant Mycoplasma and gonorrhea. Knowing where the drug sits on the ribosome is what lets you predict every resistance mechanisms[@Mao1968].
 :::
 
 ## Bacteriostatic vs. bactericidal
@@ -193,7 +193,7 @@ Mycoplasma macrolide resistance is now \>90% in some Asian regions and approachi
 | Lactobionate | IV form | 15–20 mg/kg/day divided q6h, max 4 g |
 | Estolate | Highest bioavailability; **hepatotoxicity risk** | Largely abandoned |
 
-: Erythromycin formulations
+: **Erythromycin formulations**
 
 ::: aside
 The estolate form historically caused cholestatic hepatitis in adults — withdrawn in many markets. The lactobionate IV form is the one to know for hospital use.
@@ -879,12 +879,9 @@ The Eagle effect is the mechanistic justification for adjunctive clindamycin in 
 - Stevens 2007: dramatic reduction in toxin gene expression by clindamycin in MSSA and GAS in vitro
 - IDSA SSTI guideline: add clindamycin for invasive GAS or staphylococcal TSS
 
-::: aside
-[@Stevens2007; @Stevens1987b]
-:::
 
 ::: aside
-Penicillin alone is theoretically sufficient to kill *S. pyogenes*, but in fulminant disease the bacteria are not actively growing (stationary phase) — penicillin loses efficacy ("Eagle effect"), and we need a protein synthesis inhibitor to shut down toxin production *and* the cytokine storm.
+Penicillin alone is theoretically sufficient to kill *S. pyogenes*, but in fulminant disease the bacteria are not actively growing (stationary phase) — penicillin loses efficacy ("Eagle effect"), and we need a protein synthesis inhibitor to shut down toxin production *and* the cytokine storm [@Stevens2007; @Stevens1987b].
 :::
 
 ## Streptococcal and staphylococcal TSS
